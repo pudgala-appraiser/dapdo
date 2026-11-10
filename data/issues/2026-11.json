@@ -1012,5 +1012,462 @@
    "issue": "第43卷第4期 (2026, 발행월 미확인) — 해당 글 없음",
    "status": "목차 미확인"
   }
- ]
+ ],
+ "special": {
+  "title": "2026년 연간 목록",
+  "lead": "창간호를 내며, 2026년에 나온 문헌 가운데 위 네 부문에 싣지 못한 것을 학술지별 제목 목록으로 모았다. 국내 학술지는 1~8월 발간호를 중심으로 찾았고, 해외는 한국미술과 신중상을 다룬 글만 찾았다. 불교학 계열 30종은 불교학논문 통합검색의 2026년 등록분(11월 10일 기준)에서 골랐다. 요지는 신중 도상을 다룬 글에만 한두 문장 달았다.",
+  "groups": [
+   {
+    "cat": "art",
+    "journal": "강좌미술사",
+    "issue": "66 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "문명대",
+      "title": "안성 청룡사 영산회괘불도의 새로운 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344708"
+     },
+     {
+      "authors": "유경희",
+      "title": "안성 청룡사 <감로도>의 도상 형성과 의례의 시각화 - 施食義文과 수륙재 의식집을 중심으로",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344731"
+     },
+     {
+      "authors": "고승희",
+      "title": "안성 청룡사 <아미타회상도> 양식 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344743"
+     },
+     {
+      "authors": "안희숙",
+      "title": "안성 청룡사 삼세불회도 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344748"
+     },
+     {
+      "authors": "김정희",
+      "title": "19세기 안성 청룡사 불사와 <청룡사 지장시왕도>",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344758"
+     },
+     {
+      "authors": "문무왕",
+      "title": "청룡사 역사와 문화",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344760"
+     },
+     {
+      "authors": "박아연",
+      "title": "신라 왕경의 聖所 낭산과 관음 신앙 - 경주 낭산 석조관음보살입상을 중심으로 -",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344764"
+     },
+     {
+      "authors": "문무왕",
+      "title": "화엄종 대찰 서울 장의사(莊義寺)의 역사와 문화",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344765"
+     },
+     {
+      "authors": "심주완",
+      "title": "서귀포 구룡사 소장 쌍계사 팔상전 목미륵보살좌상 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344771"
+     },
+     {
+      "authors": "최학",
+      "title": "조선 후기 화승 상겸 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344862"
+     },
+     {
+      "authors": "문명대",
+      "title": "진관사의 역사와 수륙사 5층석탑 다보탑(多寶塔)과 은제 사리기의 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344876"
+     },
+     {
+      "authors": "문명대",
+      "title": "대구 동화사 극락전 1629년 현진작 목조 아미타불삼존상의 도상학과 복장물 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344878"
+     }
+    ]
+   },
+   {
+    "cat": "art",
+    "journal": "동악미술사학",
+    "issue": "39 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "김자현",
+      "title": "唐·宋代 <觀經十六觀變相圖>의 사상적 계보 재검토",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358566"
+     },
+     {
+      "authors": "김형곤",
+      "title": "조선 후기 선묘불화의 제작 현황과 의미",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358572"
+     },
+     {
+      "authors": "최엽",
+      "title": "강화 전등사의 근대 불화: 대웅보전의 불화를 중심으로",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358577"
+     },
+     {
+      "authors": "김소연",
+      "title": "충절과 길상의 시각화: 한국 근대기 소무목양도의 제작 양상과 특징",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358583"
+     },
+     {
+      "authors": "나상철",
+      "title": "한국 고대 托盞의 수용과 변용: 중국 고대 托盞과 백제·통일신라 托盞의 비교를 중심으로",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358586"
+     },
+     {
+      "authors": "박기헌",
+      "title": "北魏末·東魏 定州 白石 佛像 硏究 - 여래상과 보살입상을 중심으로 -",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358591"
+     },
+     {
+      "authors": "蘇鉉淑",
+      "title": "‘내 손으로 만드는 功德’: 7-8세기 唐代 小型 佛敎美術品의 성격",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358595"
+     },
+     {
+      "authors": "야마다 미키, 김은아",
+      "title": "12-14世紀 日本 四天王像에 보이는 瑞獸·瑞禽文樣과 自然文樣 - 마카라(Makara)·파도 문양을 지표로 한 大佛殿様 四天王像의 제작 연대 -",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003358598",
+      "summary": "도다이지 대불전 재건기의 양식을 잇는 일본 사천왕상의 채색 문양을 분석해, 날개 달린 생물과 파도를 짝지은 문양을 마카라 도상으로 읽는다. 이 조합이 13세기 후반~14세기의 제작 연대를 가리는 지표가 된다고 본다.",
+      "flags": [
+       "초록만 확인"
+      ]
+     },
+     {
+      "authors": "山田美季",
+      "title": "12〜14世紀日本の四天王像にみる 自然文様と瑞獣·瑞禽文様 ―マカラと波の文様を指標とした 大仏殿様四天王像の製作年代―",
+      "url": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=498c9df6e1d1301ab36097776a77e665"
+     }
+    ]
+   },
+   {
+    "cat": "art",
+    "journal": "불교미술사학",
+    "issue": "41 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "이정은",
+      "title": "백제 사비시기 왕실 헌향의례(獻香儀禮)에 관한 시론적 고찰 - 부여 능산리사지 출토 백제금동대향로를 중심으로 -",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003324444"
+     },
+     {
+      "authors": "박영민",
+      "title": "고려 왕실 사찰, 법주사의 마애조상군 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003324446"
+     },
+     {
+      "authors": "진정호, 류상수",
+      "title": "고려 <십육·오백나한도>의 도상과 화기 - 제작 맥락과 신앙적 성격",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003324485"
+     },
+     {
+      "authors": "설인정",
+      "title": "조선 후기 조각승 인일의 불상 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003324487"
+     },
+     {
+      "authors": "신태호",
+      "title": "1776년 상주 남장사 <영산회 괘불도>와 양공(良工) 유성(有誠)",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003324489"
+     },
+     {
+      "authors": "한예림",
+      "title": "명(明) 선덕 7년(宣德七年, 1432) 『출상관세음보살보문품경(出相觀世音菩薩普門品經) 도상 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003324491"
+     },
+     {
+      "authors": "杭侃",
+      "title": "운강 제20굴 서벽 붕괴 시기와 담요오굴의 초기 배치 설계",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003324495"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "IJBTC",
+    "issue": "36(1) (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "Woramat MALASART, Shobha rani DASH",
+      "title": "From Manuscript Illustrations to Mural Paintings: The Contemplation of Impurity (Asubha) and Reflections on Religious and Cultural Developments in 19th-Century Thailand",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003354829"
+     },
+     {
+      "authors": "Alice CASALINI",
+      "title": "Book Review: Buddhist Landscapes: Art and Archaeology of the Khorat Plateau, 7th to 11th Centuries, by Stephen A. Murphy",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003354841"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "동아시아불교문화",
+    "issue": "73 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "진은정",
+      "title": "마곡사 대광보전(大光寶殿)의 벽화 장엄 사례를 통한 불교미술의 미술 교육적 활용 가치 탐구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003314225"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "동아시아불교문화",
+    "issue": "74 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "한대성",
+      "title": "다보탑 기단 장식 복원에 관한 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003337341"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "동아시아불교문화",
+    "issue": "75 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "정광현, 안양규",
+      "title": "불국토 개념의 중층적 의미와 신라에서의시공간적 변용",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362341"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "동아시아불교문화",
+    "issue": "76 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "안현정",
+      "title": "7세기 후반 신라 신장상의 신경향",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381585",
+      "summary": "7세기 후반 신라 신장상을 국제 양식의 수용과 호국불교로만 설명해 온 틀에서 벗어나, 백제계 소조 기술이 쓰였을 가능성과 신왕(神王) 도상의 새 채택을 짚는다. 신왕상은 놓이는 공간에서 천왕상과 갈린다고 본다.",
+      "flags": [
+       "초록만 확인"
+      ]
+     },
+     {
+      "authors": "김지은",
+      "title": "조선 전기 <예산 보덕사 건칠아미타여래좌상> 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381590"
+     },
+     {
+      "authors": "성청환",
+      "title": "불교무형유산의 보전(保全)과 전승(傳承) - 담양 용화사 불복장작법(佛腹藏作法) -",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003381634"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "명상심리상담",
+    "issue": "37 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "윤정이",
+      "title": "조선후기《단독형 약사불도》에 나타난 치유신앙과 종교도상의 사회적 기능",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003377243"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "보조사상",
+    "issue": "75 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "오세덕",
+      "title": "금산 영천암 무량수각의 건축사적 의의",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003367927"
+     },
+     {
+      "authors": "유근자",
+      "title": "강릉 보현사 영산전 조선 전기 존상의 양식 특징과 복장 유물 고찰",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003367928"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "불교학밀교학연구",
+    "issue": "9 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "손신영",
+      "title": "조선시대 불전(佛殿)의 문자(文字) 장엄(莊嚴) - 범자(梵字)에서 길상(吉祥)으로 -",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003360070"
+     },
+     {
+      "authors": "최미령, 강인숙",
+      "title": "영제 작법무의 전승 현황과 무형유산적 가치",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003360087"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "불교학보",
+    "issue": "111 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "오세덕",
+      "title": "승장 준영과 양산 신흥사 대광전의 건축사적 의의",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003365180"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "불교학연구",
+    "issue": "86 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "차상엽",
+      "title": "티벳 목우도(牧牛圖)와 『대승장엄경론』",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003321276"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "불교학연구",
+    "issue": "87 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "성서영",
+      "title": "전륜성왕의 이상과 실천 －요 흥종의 변혁적 리더쉽과 암라위림유마탑－",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003353373"
+     },
+     {
+      "authors": "임영애",
+      "title": "염승익 발원 불교미술과 『예념미타도량참법(禮念彌陀道場懺法)』",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003353549"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "선학",
+    "issue": "74 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "강대현",
+      "title": "한국불교의 오방(五方) 장엄 고찰",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003376790"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "세화불학",
+    "issue": "8 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "유경희",
+      "title": "부안 개암사 영산회괘불도의 도상과 제작 체계 - 의겸 후기 괘불을 중심으로",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003330201"
+     },
+     {
+      "authors": "강건우",
+      "title": "불상의 도금기술: 칠박도금과 아말감도금에 관한 소고",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003330209"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "한국교수불자연합학회지",
+    "issue": "32(1) (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "김선희",
+      "title": "조선초 묘법연화경(妙法蓮華經) 사경변상도(寫經變相圖)의 양식 형성에 관한 소고(小考)",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003333008"
+     },
+     {
+      "authors": "오중철",
+      "title": "수–당 전환기 양주서상 도상의 형성조건 — 막고굴 제203굴을 기점으로 —",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003333009"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "한국교수불자연합학회지",
+    "issue": "32(2) (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "김선희",
+      "title": "조선 초기 관경서품변상도(觀經序品變相圖)와 염불(念佛)·선(禪) 수행",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003375827"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "한국불교사연구",
+    "issue": "29 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "정진원",
+      "title": "밀양 가야불교의 발굴과 분석*― 삼국유사 어산불영 만어사의 지명·설화·유적자료를 중심으로",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003361707"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "한국불교학",
+    "issue": "119 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "정연정",
+      "title": "영천 거조사 『오백성중청문』의 조형적 수용과 오백나한 도상의 유형별 상관성",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003374055"
+     },
+     {
+      "authors": "조성금",
+      "title": "베제클릭석굴 제18굴 ‘長老須菩提請’ 벽화의 도상과 경전적 배경 - 기존 <견보탑품변상도> 비정의 재검토 -",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003374144"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "한마음연구",
+    "issue": "16 (2026)",
+    "pub": "",
+    "items": [
+     {
+      "authors": "배지영",
+      "title": "한마음선원 목각 후불탱화의 상징성에 관한 연구",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003307914"
+     }
+    ]
+   }
+  ]
+ }
 }

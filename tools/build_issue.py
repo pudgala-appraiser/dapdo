@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """호 자료(JSON)를 검사해 issues/<id>.html을 만들고 issues.json을 고친다.
-사용: python3 tools/build_issue.py data/issues/2026-11.json [--no-index] [--allow-dup]
+사용: python3 tools/build_issue.py data/issues/2026-11.json [--no-index] [--allow-dup] [--allow-drop]
 - 필수 항목이 비었거나 링크가 http(s)로 시작하지 않으면 멈춘다.
 - 앞선 호에 이미 실은 문헌이 있으면 멈춘다(--allow-dup으로 넘길 수 있다). 같은 호 안에서 겹쳐도 멈춘다.
   겹침은 제목이 같거나 주소 속 식별 번호(DOI·arXiv·JAKO·KCI ART 등)가 같을 때로 본다. 목차 주소는 여러 논문이 함께 쓰므로 주소만으로는 가리지 않는다.
@@ -8,14 +8,17 @@
 - 자료에 "updated"가 있으면 발행일 옆에 보탠 날을 함께 적는다. 첫 화면(index.html)의 지난 호 목록과 '이번 호' 링크도 함께 고친다.
 - id가 test로 시작하거나 --no-index를 주면 issues.json(지난 호 목록)은 건드리지 않는다.
 - 자료에 "label"이 있으면 "제N호" 대신 그 이름을 쓴다(예: 창간호, "no": 1). 다음 호 번호는 가장 큰 no에 1을 더한다.
-- 답도는 홀수 달(1·3·5·7·9·11월) 15일에 내는 격월간이다. 호의 id는 발행한 달(YYYY-MM)이다."""
-import json, sys, os, re, html, glob
+- 답도는 홀수 달(1·3·5·7·9·11월) 15일에 내는 격월간이다. 호의 id는 발행한 달(YYYY-MM)이다.
+- 자료에 "special"(특집 묶음)이 있으면 네 부문 뒤에 학술지별 제목 목록으로 싣는다. 특집의 문헌도 겹침 검사와 건수에 들어간다.
+- 저장소에 이미 올라간 같은 호 자료(git HEAD)에 실려 있던 문헌이 새 자료에서 빠지면 멈춘다. 제목을 바로잡았거나 잘못 실린 문헌을 뺀 것이면 --allow-drop으로 넘긴다."""
+import json, sys, os, re, html, glob, subprocess
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECTIONS = [("art", "一", "불교미술·미술사"), ("heritage", "二", "문화유산학·법제"), ("science", "三", "AI·과학과 문화유산"), ("books", "四", "신간")]
 FLAGS = {"초록만 확인", "목차만 확인", "서지 검증 필요", "본문 미확인", "원제 미확인"}
 LEGEND = [("초록만 확인", "은 본문을 보지 못하고 초록으로 쓴 요지"), ("목차만 확인", "은 목차에서 서지만 확인한 문헌"), ("서지 검증 필요", "는 원문 DB에서 서지를 끝까지 대조하지 못한 문헌"),
           ("본문 미확인", "은 책을 보지 못하고 출판사 소개 등으로 쓴 신간"), ("원제 미확인", "은 한국어 원제를 찾지 못해 영문 제목으로 실은 국내 논문")]
+CATS = [("art", "국내 · 미술사·불교미술 학술지"), ("other", "국내 · 그 밖의 학술지"), ("intl", "해외 · 한국미술·신중상 관련 글")]
 DEEP = [("material", "자료"), ("method", "방법"), ("significance", "의의"), ("limits", "한계")]
 IDENT = [r"(10\.\d{4,9}/[^\s?#]+)", r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})", r"(JAKO\d{6,})", r"(ART\d{6,})", r"abstract_id=(\d+)", r"/pii/(S\w+)",
          r"mdpi\.com/(\d{4}-\d{4}/\d+/\d+/\d+)", r"nature\.com/articles/([\w.-]+)"]
@@ -60,6 +63,13 @@ def title_html(it):
 def meta(it):
     return " · ".join(x for x in (e(it.get("authors", "")), e(it["venue"])) if x)
 
+def all_items(X):
+    """호 자료에 실린 문헌 전부(네 부문의 items·more와 특집 묶음)."""
+    out = []
+    for s in X.get("sections", []): out += s.get("items", []) + s.get("more", [])
+    for g in (X.get("special") or {}).get("groups", []): out += g.get("items", [])
+    return out
+
 def write_home(idx):
     """첫 화면의 지난 호 목록과 '이번 호' 링크를 고친다(스크립트 없이도 목록이 보이게)."""
     p = os.path.join(root, "index.html")
@@ -94,24 +104,45 @@ def main():
         try: P = json.load(open(f, encoding="utf-8"))
         except Exception: continue
         if str(P.get("id", "")).startswith("test") or str(P.get("id", "")) == "sample": continue
-        for s in P.get("sections", []):
-            for it in s.get("items", []) + s.get("more", []):
-                for k in keys(it): seen[k] = P["id"]
+        for it in all_items(P):
+            for k in keys(it): seen[k] = P["id"]
     dups, n_items, n_deep, local, used = [], 0, 0, {}, set()
+    def track(it):
+        used.update(it.get("flags", []))
+        ks = keys(it)
+        for k in ks:
+            if k in local: fail("같은 호 안에서 겹치는 문헌: %s ↔ %s" % (it["title"][:50], local[k][:50]))
+        for k in ks: local[k] = it["title"]
+        for k in ks:
+            if k in seen: dups.append("%s ← %s호에 이미 실림" % (it["title"][:50], seen[k])); break
     for key, num, name in SECTIONS:
         s = secs.get(key) or {}
         for it in s.get("items", []):
             check_item(it, name, True); n_items += 1; n_deep += 1 if it.get("deep") else 0
         for it in s.get("more", []):
             check_item(it, name + "(목록)", False); n_items += 1
-        for it in s.get("items", []) + s.get("more", []):
-            used.update(it.get("flags", []))
-            ks = keys(it)
-            for k in ks:
-                if k in local: fail("같은 호 안에서 겹치는 문헌: %s ↔ %s" % (it["title"][:50], local[k][:50]))
-            for k in ks: local[k] = it["title"]
-            for k in ks:
-                if k in seen: dups.append("%s ← %s호에 이미 실림" % (it["title"][:50], seen[k])); break
+        for it in s.get("items", []) + s.get("more", []): track(it)
+    SP = D.get("special") or {}
+    n_special = 0
+    for g in SP.get("groups", []):
+        if g.get("cat") not in [c for c, _ in CATS]: fail("특집: 알 수 없는 묶음 구분 cat '%s' — %s" % (g.get("cat"), g.get("journal")))
+        if not str(g.get("journal", "")).strip(): fail("특집: 학술지 이름(journal) 없음")
+        for it in g.get("items", []):
+            check_item(dict(it, venue=it.get("venue") or "『%s』 %s" % (g["journal"], g.get("issue", ""))), "특집(%s)" % g["journal"], False)
+            n_special += 1; track(it)
+    n_items += n_special
+    # 이미 올라간 같은 호 자료에 있던 문헌이 빠지지 않았는지 본다
+    if not test and "--allow-drop" not in opts:
+        try:
+            rel = os.path.relpath(os.path.abspath(args[0]), root).replace(os.sep, "/")
+            r = subprocess.run(["git", "-C", root, "show", "HEAD:" + rel], capture_output=True, text=True)
+            O = json.loads(r.stdout) if r.returncode == 0 else None
+        except Exception:
+            O = None
+        if O:
+            now = set(k for it in all_items(D) for k in keys(it))
+            gone = [it.get("title", "") for it in all_items(O) if keys(it) and not any(k in now for k in keys(it))]
+            if gone: fail("앞서 실은 문헌 %d건이 자료에서 빠졌다(되살리거나, 정당한 사유가 있으면 --allow-drop):\n  " % len(gone) + "\n  ".join(t[:60] for t in gone[:8]))
     if dups and "--allow-dup" not in opts and not test:
         fail("앞선 호와 겹치는 문헌 %d건:\n  " % len(dups) + "\n  ".join(dups))
     idx_path = os.path.join(root, "issues.json")
@@ -141,6 +172,7 @@ def main():
         s = secs.get(key) or {}
         c = len(s.get("items", [])) + len(s.get("more", []))
         w('<li><a href="#%s"><b>%s</b>%s<i>%s</i></a></li>' % (key, num, e(name), ("%d건" % c) if c else "신규 없음"))
+    if n_special: w('<li><a href="#special"><b>特</b>%s<i>%d건</i></a></li>' % (e(SP.get("title") or "특집"), n_special))
     w('</ul>\n<div><button class="ghost" id="replay" type="button">다시 그리기</button></div>\n</div>\n</div>\n</header>')
     deep = [(name, it) for key, num, name in SECTIONS for it in (secs.get(key) or {}).get("items", []) if it.get("deep")]
     # 따라다니는 목차: 화면을 내려도 위에 붙어 있다
@@ -148,6 +180,7 @@ def main():
     if deep: w('<a href="#h-deep">눈여겨볼 연구</a>')
     for key, num, name in SECTIONS:
         w('<a href="#%s"><b>%s</b>%s</a>' % (key, num, e(name)))
+    if n_special: w('<a href="#special"><b>特</b>특집</a>')
     if D.get("checked"): w('<a href="#h-chk">점검한 학술지</a>')
     w('</div></nav>')
     w('<main class="body">\n<p class="lead">%s</p>' % e(D["lead"]))
@@ -178,6 +211,34 @@ def main():
                 w('<li>%s<br><span class="m">%s</span></li>' % (title_html(it), meta(it)))
             w('</ul>\n</details>')
         w('</section>')
+    if n_special:
+        w('<section class="special" aria-labelledby="special">\n<h2 id="special"><b>特</b>특집 · %s</h2>' % e(SP.get("title") or "특집"))
+        if SP.get("lead"): w('<p class="splead">%s</p>' % e(SP["lead"]))
+        for cat, cname in CATS:
+            gs = [g for g in SP.get("groups", []) if g.get("cat") == cat and g.get("items")]
+            if not gs: continue
+            w('<h3 class="cat">%s <i>%d건</i></h3>' % (e(cname), sum(len(g["items"]) for g in gs)))
+            order = []
+            for g in gs:
+                if g["journal"] not in order: order.append(g["journal"])
+            for jn in order:
+                js = [g for g in gs if g["journal"] == jn]
+                w('<details class="more"><summary>『%s』 — %s%d건</summary>' % (e(jn), ("%d개 호 " % len(js)) if len(js) > 1 else "", sum(len(g["items"]) for g in js)))
+                for g in js:
+                    if g.get("issue"): w('<p class="iss">%s</p>' % e(g["issue"]))
+                    w('<ul>')
+                    for it in g["items"]:
+                        w('<li>%s%s%s</li>' % (title_html(it), ('<br><span class="m">%s</span>' % e(it["authors"])) if it.get("authors") else "",
+                                               ('<br><span class="s">%s</span>' % e(it["summary"])) if it.get("summary") else ""))
+                    w('</ul>')
+                w('</details>')
+        cov = SP.get("coverage") or []
+        if cov:
+            w('<details><summary>특집에서 조사한 호 %d개 — 결과 보기</summary>\n<div class="tblbox"><table class="chk"><thead><tr><th>학술지</th><th>호</th><th>결과</th></tr></thead><tbody>' % len(cov))
+            for c in cov:
+                w('<tr><td>%s</td><td>%s</td><td>%s</td></tr>' % (e(c.get("journal")), e(c.get("issue", "")), e(c.get("status", ""))))
+            w('</tbody></table></div>\n</details>')
+        w('</section>')
     if D.get("checked"):
         w('<section aria-labelledby="h-chk">\n<h2 id="h-chk">이번 호에 점검한 학술지</h2>\n<details><summary>%d종 펼쳐 보기</summary>\n<div class="tblbox"><table class="chk"><thead><tr><th>학술지</th><th>확인한 호</th><th>결과</th></tr></thead><tbody>' % len(D["checked"]))
         for c in D["checked"]:
@@ -198,6 +259,7 @@ def main():
         json.dump(idx, open(idx_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         write_home(idx)
     if n_deep > 5: print("주의: 정밀 요약이 %d건이다(한 호에 3~5건)." % n_deep)
-    print("완료: issues/%s.html — %s, 문헌 %d건(정밀 요약 %d건)%s%s" % (iid, label, n_items, n_deep, ", 지난 호 목록 갱신" if not test else ", 지난 호 목록은 그대로", (", 중복 경고 %d건" % len(dups)) if dups else ""))
+    print("완료: issues/%s.html — %s, 문헌 %d건(정밀 요약 %d건%s)%s%s" % (iid, label, n_items, n_deep, (", 특집 %d건 포함" % n_special) if n_special else "", ", 지난 호 목록 갱신" if not test else ", 지난 호 목록은 그대로", (", 중복 경고 %d건" % len(dups)) if dups else ""))
 
-main()
+if __name__ == "__main__":
+    main()

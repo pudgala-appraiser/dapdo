@@ -116,6 +116,15 @@ summary{cursor:pointer;font-size:14.5px;color:var(--sub);min-height:44px;display
 .more li{margin:0 0 8px}
 .more .m{color:var(--sub);font-size:13.5px}
 .none{color:var(--sub);font-size:15px;margin:14px 0 0}
+/* ── 특집 묶음 */
+.splead{font-size:15.5px;margin:16px 0 0}
+.special h3.cat{font-family:var(--mj);font-weight:700;font-size:17px;margin:34px 0 0;padding-bottom:8px;border-bottom:1px solid var(--hair)}
+.special h3.cat i{font-family:var(--go);font-style:normal;font-weight:400;font-size:13px;color:var(--sub);margin-left:8px}
+.special details{margin:0;border-bottom:1px solid var(--hair)}
+.special details[open]{padding-bottom:14px}
+.special summary{color:var(--ink);font-size:15.5px}
+.special .iss{font-family:var(--mj);font-weight:700;font-size:14.5px;margin:10px 0 4px}
+.more .s{display:block;font-size:14.5px;margin-top:3px}
 table.chk{width:100%;border-collapse:collapse;font-size:14px}
 table.chk th,table.chk td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--hair);vertical-align:top}
 table.chk th{font-family:var(--mj);color:var(--sub);font-weight:700}

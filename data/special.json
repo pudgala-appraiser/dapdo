@@ -1,0 +1,449 @@
+{
+ "_설명": "창간호 특집 '2026년 연간 목록'의 사전 조사 대기열. tools/special.py가 읽고 고친다. kind toc=그 학술지의 그 발간일 호 목차를 찾아 싣는다(mode all=전 논문, filter=관련 논문만), search=검색 과제. status: todo=남음, done=실음, none=목차는 확인했으나 실을 논문 없음, notfound=목차 미확인. 불교학 포털 30종의 2026년분은 2026-11-10에 포털 자료로 한꺼번에 실었으므로 대기열에 없다.",
+ "issue": "2026-11",
+ "year": 2026,
+ "window": [
+  "2026-01-01",
+  "2026-08-31"
+ ],
+ "tasks": [
+  {
+   "id": "t01",
+   "kind": "toc",
+   "journal": "미술사학연구",
+   "pub": "2026-03-31",
+   "mode": "all",
+   "status": "todo"
+  },
+  {
+   "id": "t02",
+   "kind": "toc",
+   "journal": "미술사학연구",
+   "pub": "2026-06-30",
+   "mode": "all",
+   "status": "todo"
+  },
+  {
+   "id": "t03",
+   "kind": "toc",
+   "journal": "미술사연구",
+   "pub": "2026-06-15",
+   "mode": "all",
+   "status": "todo"
+  },
+  {
+   "id": "t04",
+   "kind": "toc",
+   "journal": "미술사학",
+   "pub": "2026-02-28",
+   "mode": "all",
+   "status": "todo"
+  },
+  {
+   "id": "t05",
+   "kind": "toc",
+   "journal": "미술사학",
+   "pub": "2026-08-31",
+   "mode": "all",
+   "status": "todo"
+  },
+  {
+   "id": "t06",
+   "kind": "toc",
+   "journal": "미술사와 시각문화",
+   "pub": "2026-05-31",
+   "mode": "all",
+   "status": "todo"
+  },
+  {
+   "id": "t07",
+   "kind": "toc",
+   "journal": "미술사논단",
+   "pub": "2026-06-30",
+   "mode": "all",
+   "status": "todo"
+  },
+  {
+   "id": "t08",
+   "kind": "toc",
+   "journal": "미술사학보",
+   "pub": "2026-06-30",
+   "mode": "all",
+   "status": "todo"
+  },
+  {
+   "id": "t09",
+   "kind": "toc",
+   "journal": "문화사학",
+   "pub": "2026-06-26",
+   "mode": "all",
+   "status": "todo"
+  },
+  {
+   "id": "t10",
+   "kind": "toc",
+   "journal": "동양미술사학",
+   "pub": "2026-03-31",
+   "mode": "all",
+   "status": "todo"
+  },
+  {
+   "id": "t11",
+   "kind": "search",
+   "name": "해외의 한국미술·신중상 관련 글(2026년 발행)",
+   "status": "todo"
+  },
+  {
+   "id": "t12",
+   "kind": "toc",
+   "journal": "헤리티지: 역사와 과학",
+   "pub": "2026-03-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t13",
+   "kind": "toc",
+   "journal": "헤리티지: 역사와 과학",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t14",
+   "kind": "toc",
+   "journal": "한국고대사탐구",
+   "pub": "2026-04-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t15",
+   "kind": "toc",
+   "journal": "한국고대사탐구",
+   "pub": "2026-08-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t16",
+   "kind": "toc",
+   "journal": "건축역사연구",
+   "pub": "2026-02-28",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t17",
+   "kind": "toc",
+   "journal": "건축역사연구",
+   "pub": "2026-04-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t18",
+   "kind": "toc",
+   "journal": "건축역사연구",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t19",
+   "kind": "toc",
+   "journal": "건축역사연구",
+   "pub": "2026-08-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t20",
+   "kind": "toc",
+   "journal": "신라사학보",
+   "pub": "2026-04-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t21",
+   "kind": "toc",
+   "journal": "신라사학보",
+   "pub": "2026-08-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t22",
+   "kind": "toc",
+   "journal": "미학·예술학연구",
+   "pub": "2026-02-28",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t23",
+   "kind": "toc",
+   "journal": "미학·예술학연구",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t24",
+   "kind": "toc",
+   "journal": "한국근현대미술사학",
+   "pub": "2026-07-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t25",
+   "kind": "toc",
+   "journal": "한국고대사연구",
+   "pub": "2026-03-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t26",
+   "kind": "toc",
+   "journal": "한국고대사연구",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t27",
+   "kind": "toc",
+   "journal": "신라문화",
+   "pub": "2026-02-28",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t28",
+   "kind": "toc",
+   "journal": "신라문화",
+   "pub": "2026-08-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t29",
+   "kind": "toc",
+   "journal": "고문화",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t30",
+   "kind": "toc",
+   "journal": "한국학",
+   "pub": "2026-03-10",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t31",
+   "kind": "toc",
+   "journal": "한국학",
+   "pub": "2026-06-10",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t32",
+   "kind": "toc",
+   "journal": "한국사연구",
+   "pub": "2026-03-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t33",
+   "kind": "toc",
+   "journal": "한국사연구",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t34",
+   "kind": "toc",
+   "journal": "역사학보",
+   "pub": "2026-03-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t35",
+   "kind": "toc",
+   "journal": "역사학보",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t36",
+   "kind": "toc",
+   "journal": "한국사학보",
+   "pub": "2026-03-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t37",
+   "kind": "toc",
+   "journal": "한국사학보",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t38",
+   "kind": "toc",
+   "journal": "사학연구",
+   "pub": "2026-03-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t39",
+   "kind": "toc",
+   "journal": "사학연구",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t40",
+   "kind": "toc",
+   "journal": "역사와 현실",
+   "pub": "2026-03-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t41",
+   "kind": "toc",
+   "journal": "역사와 현실",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t42",
+   "kind": "toc",
+   "journal": "역사와 담론",
+   "pub": "2026-03-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t43",
+   "kind": "toc",
+   "journal": "역사와 담론",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t44",
+   "kind": "toc",
+   "journal": "동방학지",
+   "pub": "2026-03-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t45",
+   "kind": "toc",
+   "journal": "동방학지",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t46",
+   "kind": "toc",
+   "journal": "선사와 고대",
+   "pub": "2026-04-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t47",
+   "kind": "toc",
+   "journal": "선사와 고대",
+   "pub": "2026-08-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t48",
+   "kind": "toc",
+   "journal": "인문과학연구논총",
+   "pub": "2026-03-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t49",
+   "kind": "toc",
+   "journal": "인문과학연구논총",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t50",
+   "kind": "toc",
+   "journal": "중국사연구",
+   "pub": "2026-02-28",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t51",
+   "kind": "toc",
+   "journal": "중국사연구",
+   "pub": "2026-04-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t52",
+   "kind": "toc",
+   "journal": "중국사연구",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t53",
+   "kind": "toc",
+   "journal": "중국사연구",
+   "pub": "2026-08-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t54",
+   "kind": "toc",
+   "journal": "구비문학연구",
+   "pub": "2026-03-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t55",
+   "kind": "toc",
+   "journal": "구비문학연구",
+   "pub": "2026-06-30",
+   "mode": "filter",
+   "status": "todo"
+  }
+ ]
+}
