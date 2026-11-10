@@ -24,7 +24,7 @@
 | `tools/special.py` | 창간호 특집(2026년 연간 목록)의 사전 조사 도구. 대기열 보기(`next`), 결과 합치기(`merge`), 현황(`status`) |
 | `assets/dapdo.css` | 공통 양식. 글꼴은 Noto Serif KR·Noto Sans KR |
 | `assets/namsan_cover.gif`·`.png` | 첫 화면 그림(경주 남산동 서삼층석탑 동면 야차·용). 한 번 재생되는 GIF와, 움직임을 줄인 환경에서 쓰는 정지 그림 |
-| `assets/favicon-32.png`·`favicon-192.png`·`apple-touch-icon.png` | 즐겨찾기·탭 아이콘(하늘색 바탕에 먹 글자 "답"). 첫 화면과 호 쪽의 머리에서 불러온다 |
+| `assets/favicon-32.png`·`favicon-192.png`·`apple-touch-icon.png` | 즐겨찾기·탭 아이콘(도다이지 사천왕상의 눈, 위원 제공 그림을 눈동자 중심으로 잘라 한지색 바탕에 얹음). 첫 화면과 호 쪽의 머리에서 불러온다 |
 | `assets/home.js` | 첫 화면 그림 크기 맞춤과 '다시 그리기' |
 | `assets/mast.js` | 호 쪽 머리 그림(경주 장항리 서오층석탑 1층 탑신 북면 선화). 맨 위의 `K`·`KD`가 그리는 속도다 |
 | `assets/pin.js` | 호 쪽에서 따라다니는 목차의 현재 위치 표시 |
