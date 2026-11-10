@@ -246,6 +246,22 @@
    "status": "todo"
   },
   {
+   "id": "t57",
+   "kind": "toc",
+   "journal": "인문과학연구",
+   "pub": "2026-02-28",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t58",
+   "kind": "toc",
+   "journal": "인문과학연구",
+   "pub": "2026-08-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
    "id": "t30",
    "kind": "toc",
    "journal": "한국학",
