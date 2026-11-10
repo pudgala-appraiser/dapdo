@@ -158,7 +158,7 @@ def main():
     w('<title>답도 踏道 %s — %s</title>' % (e(label), e(D["title"])))
     w('<meta name="description" content="%s">' % e(D["lead"][:150]))
     if test: w('<meta name="robots" content="noindex">')
-    w('<link rel="icon" href="data:,">')
+    w('<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">\n<link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png">\n<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">')
     w('<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>')
     w('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700;800&amp;family=Noto+Sans+KR:wght@400;700&amp;display=swap">')
     w('<link rel="stylesheet" href="../assets/dapdo.css">\n</head>\n<body class="issue">')
