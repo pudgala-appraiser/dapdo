@@ -9,6 +9,7 @@
 - id가 test로 시작하거나 --no-index를 주면 issues.json(지난 호 목록)은 건드리지 않는다.
 - 자료에 "label"이 있으면 "제N호" 대신 그 이름을 쓴다(예: 창간호, "no": 1). 다음 호 번호는 가장 큰 no에 1을 더한다.
 - 답도는 홀수 달(1·3·5·7·9·11월) 15일에 내는 격월간이다. 호의 id는 발행한 달(YYYY-MM)이다.
+- 꼬리말의 운영자 옆에 틀의 판 번호와 날짜(data/version.json)를 적는다. 첫 화면 꼬리말의 판 번호도 함께 고친다.
 - 자료에 "special"(특집 묶음)이 있으면 네 부문 뒤에 학술지별 제목 목록으로 싣는다. 특집의 문헌도 겹침 검사와 건수에 들어간다.
 - 저장소에 이미 올라간 같은 호 자료(git HEAD)에 실려 있던 문헌이 새 자료에서 빠지면 멈춘다. 제목을 바로잡았거나 잘못 실린 문헌을 뺀 것이면 --allow-drop으로 넘긴다."""
 import json, sys, os, re, html, glob, subprocess
@@ -37,6 +38,14 @@ def keys(it):
     t = norm(it.get("title")); k = ["t:" + t] if len(t) >= 6 else []
     i = ident(it.get("url"))
     return k + (["i:" + i] if i else [])
+
+def version():
+    """틀의 판 번호와 날짜(data/version.json). 파일이 없으면 빈 문자열."""
+    try:
+        V = json.load(open(os.path.join(root, "data", "version.json"), encoding="utf-8"))
+        return "%s · %s" % (V["version"], V["date"])
+    except Exception:
+        return ""
 
 def fail(msg):
     print("오류: " + msg); sys.exit(1)
@@ -82,6 +91,7 @@ def write_home(idx):
                    % (e(x["id"]), e(x.get("label") or "제%s호" % x["no"]), e(x["title"]), e(x["count"]), e(x["date"])) for x in rows)
     block = "<!--issues:start-->\n" + ('<ol id="issues">\n%s\n</ol>' % li if rows else '<ol id="issues"></ol>\n<p id="noissue">아직 발행한 호가 없습니다.</p>') + "\n<!--issues:end-->"
     h = h[:m.start()] + block + h[m.end():]
+    if version(): h = re.sub(r"<!--ver:start-->.*?<!--ver:end-->", lambda k: "<!--ver:start--> | %s<!--ver:end-->" % e(version()), h, flags=re.S)
     if rows: h = re.sub(r'(id="latest" href=")[^"]*(")', lambda k: k.group(1) + "issues/%s.html" % rows[0]["id"] + k.group(2), h)
     open(p, "w", encoding="utf-8").write(h)
 
@@ -247,7 +257,7 @@ def main():
     w('</main>\n<footer>\n<p>본문은 AI(Claude)가 공개된 서지와 초록을 바탕으로 엮었습니다. 요지는 원문을 대신하지 않으니, 인용하기 전에 원문을 확인해 주십시오.</p>')
     lg = ["‘%s’%s" % (f, t) for f, t in LEGEND if f in used]
     if lg: w('<p>%s입니다.</p>' % e(", ".join(lg)))
-    w('<p>%s운영자: 한재원</p>' % (('엮은 모델: %s | ' % e(D["model"])) if D.get("model") else ''))
+    w('<p>%s운영자: 한재원%s</p>' % (('엮은 모델: %s | ' % e(D["model"])) if D.get("model") else '', (' | %s' % e(version())) if version() else ''))
     w('<p><a href="../">답도 첫 화면</a></p>\n</footer>\n<script src="../assets/mast.js"></script>\n<script src="../assets/pin.js"></script>\n</body>\n</html>')
     os.makedirs(os.path.join(root, "issues"), exist_ok=True)
     open(os.path.join(root, "issues", iid + ".html"), "w", encoding="utf-8").write("\n".join(out) + "\n")
