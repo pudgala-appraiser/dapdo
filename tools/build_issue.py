@@ -87,7 +87,7 @@ def main():
     w('<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>')
     w('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700;800&amp;family=Noto+Sans+KR:wght@400;700&amp;display=swap">')
     w('<link rel="stylesheet" href="../assets/dapdo.css">\n</head>\n<body class="issue">')
-    w('<header class="wrap">\n<div class="topbar"><a class="cap" href="../">踏道 · MONTHLY REVIEW OF SCHOLARSHIP</a><span>%s · %s</span></div>' % (e(label), e(D["title"])))
+    w('<header class="wrap" id="top">\n<div class="topbar"><a class="cap" href="../">踏道 · MONTHLY REVIEW OF SCHOLARSHIP</a><span>%s · %s</span></div>' % (e(label), e(D["title"])))
     w('<div class="mast">\n<div>\n<div class="mast-art" id="mast-art" role="img" aria-label="연필로 그린 경주 장항리 서오층석탑 1층 탑신 북면. 가운데 문비에 귀면 문고리 한 쌍이 있고, 좌우 연화좌 위에 금강역사가 한 구씩 서 있다."></div>')
     w('<p class="figcap">경주 장항리 서오층석탑 · 1층 탑신 북면</p>\n</div>')
     w('<div class="mast-ttl">\n<div class="h"><h1>답도</h1><span class="seal">月報</span></div>\n<p class="sub">불교미술·문화유산 연구 성과 월보</p>')
@@ -97,8 +97,15 @@ def main():
         c = len(s.get("items", [])) + len(s.get("more", []))
         w('<li><a href="#%s"><b>%s</b>%s<i>%s</i></a></li>' % (key, num, e(name), ("%d건" % c) if c else "신규 없음"))
     w('</ul>\n<div><button class="ghost" id="replay" type="button">다시 그리기</button></div>\n</div>\n</div>\n</header>')
-    w('<main class="body">\n<p class="lead">%s</p>' % e(D["lead"]))
     deep = [(name, it) for key, num, name in SECTIONS for it in (secs.get(key) or {}).get("items", []) if it.get("deep")]
+    # 따라다니는 목차: 화면을 내려도 위에 붙어 있다
+    w('<nav class="pin" id="pin" aria-label="목차"><div class="pin-in">\n<a class="up" href="#top">답도 <span aria-hidden="true">↑</span></a>')
+    if deep: w('<a href="#h-deep">눈여겨볼 연구</a>')
+    for key, num, name in SECTIONS:
+        w('<a href="#%s"><b>%s</b>%s</a>' % (key, num, e(name)))
+    if D.get("checked"): w('<a href="#h-chk">점검한 학술지</a>')
+    w('</div></nav>')
+    w('<main class="body">\n<p class="lead">%s</p>' % e(D["lead"]))
     if deep:
         w('<section aria-labelledby="h-deep">\n<h2 id="h-deep">눈여겨볼 연구</h2>')
         for name, it in deep:
@@ -134,7 +141,7 @@ def main():
     w('</main>\n<footer>\n<p>본문은 AI(Claude)가 공개된 서지와 초록을 바탕으로 엮었습니다. 요지는 원문을 대신하지 않으니, 인용하기 전에 원문을 확인해 주십시오.</p>')
     w('<p>‘초록만 확인’은 본문을 보지 못하고 초록으로 쓴 요지, ‘목차만 확인’은 목차에서 서지만 확인한 문헌, ‘서지 검증 필요’는 원문 DB에서 서지를 끝까지 대조하지 못한 문헌입니다.</p>')
     if D.get("model"): w('<p>엮은 모델: %s</p>' % e(D["model"]))
-    w('<p><a href="../">답도 첫 화면</a></p>\n</footer>\n<script src="../assets/mast.js"></script>\n</body>\n</html>')
+    w('<p><a href="../">답도 첫 화면</a></p>\n</footer>\n<script src="../assets/mast.js"></script>\n<script src="../assets/pin.js"></script>\n</body>\n</html>')
     os.makedirs(os.path.join(root, "issues"), exist_ok=True)
     open(os.path.join(root, "issues", iid + ".html"), "w", encoding="utf-8").write("\n".join(out) + "\n")
     if not test:
