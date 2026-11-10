@@ -9,7 +9,7 @@ import json, sys, os, re, html, glob
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECTIONS = [("art", "一", "불교미술·미술사"), ("heritage", "二", "문화유산학·법제"), ("science", "三", "AI·과학과 문화유산"), ("books", "四", "신간")]
-FLAGS = {"초록만 확인", "목차만 확인", "서지 검증 필요", "본문 미확인"}
+FLAGS = {"초록만 확인", "목차만 확인", "서지 검증 필요", "본문 미확인", "원제 미확인"}
 DEEP = [("material", "자료"), ("method", "방법"), ("significance", "의의"), ("limits", "한계")]
 e = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 norm = lambda s: re.sub(r"[\W_]+", "", str(s or "")).lower()

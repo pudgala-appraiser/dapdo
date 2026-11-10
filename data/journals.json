@@ -1,5 +1,5 @@
 {
- "_설명": "국내 조사 대상 60종. file=학회 누리집·학술 DB 검색으로 확인하는 30종, portal=불교학논문 통합검색 저장소로 확인하는 30종. pub은 발간일(MM-DD), est=true는 발간 횟수만 알고 날짜는 추정. mode all=수록 논문 전부를 목록에 싣는다, filter=미술·유물·건축·고고·불교·문화유산 관련 논문만. cadence=quarterly는 역사 계열로, 1·4·7·10월 실행에서만 확인한다(검색 한도 때문).",
+ "_설명": "국내 조사 대상 60종. file=학회 누리집·학술 DB 검색으로 확인하는 30종, portal=불교학논문 통합검색 저장소로 확인하는 30종. pub은 발간일(MM-DD), est=true는 발간 횟수만 알고 날짜는 추정. mode all=수록 논문 전부를 목록에 싣는다, filter=미술·유물·건축·고고·불교·문화유산 관련 논문만. cadence=quarterly는 역사 계열로, 1·4·7·10월 실행에서만 확인한다(검색 한도 때문). toc=그 학술지의 한국어 목차 쪽 주소 틀(권·호만 바꿔 연다).",
  "portal_all": [
   "불교미술사학",
   "동악미술사학",
@@ -27,7 +27,8 @@
     "12-30"
    ],
    "mode": "filter",
-   "note": "구 『문화재』"
+   "note": "구 『문화재』",
+   "toc": "https://koreascience.kr/journal/MHJOCX/v{권}n{호}.page?lang=ko"
   },
   {
    "name": "한국학",
@@ -93,7 +94,8 @@
     "10-31",
     "12-31"
    ],
-   "mode": "filter"
+   "mode": "filter",
+   "toc": "https://koreascience.kr/journal/KCOSB1/v{권}n{호}.page?lang=ko"
   },
   {
    "name": "신라사학보",
