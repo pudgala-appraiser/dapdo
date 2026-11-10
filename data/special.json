@@ -13,7 +13,8 @@
    "journal": "미술사학연구",
    "pub": "2026-03-31",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-11"
   },
   {
    "id": "t02",
@@ -21,7 +22,8 @@
    "journal": "미술사학연구",
    "pub": "2026-06-30",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-11"
   },
   {
    "id": "t03",
@@ -29,7 +31,8 @@
    "journal": "미술사연구",
    "pub": "2026-06-15",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-11"
   },
   {
    "id": "t04",
@@ -37,7 +40,8 @@
    "journal": "미술사학",
    "pub": "2026-02-28",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-11"
   },
   {
    "id": "t05",
@@ -45,7 +49,8 @@
    "journal": "미술사학",
    "pub": "2026-08-31",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-11"
   },
   {
    "id": "t06",
@@ -53,7 +58,8 @@
    "journal": "미술사와 시각문화",
    "pub": "2026-05-31",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-11"
   },
   {
    "id": "t07",
@@ -61,7 +67,8 @@
    "journal": "미술사논단",
    "pub": "2026-06-30",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-11"
   },
   {
    "id": "t08",
@@ -69,7 +76,8 @@
    "journal": "미술사학보",
    "pub": "2026-06-30",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-11"
   },
   {
    "id": "t09",
