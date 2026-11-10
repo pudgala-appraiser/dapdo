@@ -1,0 +1,8 @@
+{
+ "_설명": "조사 상태. file_checked=학술지별로 어느 날까지의 발간분을 확인했는지, portal_since=포털 신규 등록을 어느 날까지 반영했는지, intl=해외지별 마지막으로 본 호.",
+ "baseline": "2026-08-31",
+ "portal_since": "2026-09-25",
+ "file_checked": {},
+ "intl": {},
+ "last_run": null
+}
