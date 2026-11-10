@@ -4,9 +4,9 @@
   function fit() {
     var w = hero.clientWidth, narrow = w < 820;
     hero.classList.toggle('narrow', narrow);
-    var k = narrow ? w / 1210 : w / 1280;
+    var k = narrow ? w / 1120 : w / 1280;
     hero.style.setProperty('--k', k);
-    box.style.height = ((narrow ? 480 : 800) * k) + 'px';
+    box.style.height = ((narrow ? 480 : 600) * k) + 'px';
   }
   fit();
   window.addEventListener('resize', fit);

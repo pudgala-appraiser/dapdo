@@ -85,7 +85,7 @@ def main():
     w('<meta name="description" content="%s">' % e(D["lead"][:150]))
     if test: w('<meta name="robots" content="noindex">')
     w('<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>')
-    w('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&amp;family=Nanum+Gothic:wght@400;700&amp;display=swap">')
+    w('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700;800&amp;family=Noto+Sans+KR:wght@400;700&amp;display=swap">')
     w('<link rel="stylesheet" href="../assets/dapdo.css">\n</head>\n<body class="issue">')
     w('<header class="wrap">\n<div class="topbar"><a class="cap" href="../">踏道 · MONTHLY REVIEW OF SCHOLARSHIP</a><span>%s · %s</span></div>' % (e(label), e(D["title"])))
     w('<div class="mast">\n<div>\n<div class="mast-art" id="mast-art" role="img" aria-label="연필로 그린 경주 장항리 서오층석탑 1층 탑신 북면. 가운데 문비에 귀면 문고리 한 쌍이 있고, 좌우 연화좌 위에 금강역사가 한 구씩 서 있다."></div>')
