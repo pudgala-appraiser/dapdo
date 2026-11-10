@@ -140,8 +140,8 @@ def main():
         w('</tbody></table></div>\n</details>\n</section>')
     w('</main>\n<footer>\n<p>본문은 AI(Claude)가 공개된 서지와 초록을 바탕으로 엮었습니다. 요지는 원문을 대신하지 않으니, 인용하기 전에 원문을 확인해 주십시오.</p>')
     w('<p>‘초록만 확인’은 본문을 보지 못하고 초록으로 쓴 요지, ‘목차만 확인’은 목차에서 서지만 확인한 문헌, ‘서지 검증 필요’는 원문 DB에서 서지를 끝까지 대조하지 못한 문헌입니다.</p>')
-    if D.get("model"): w('<p>엮은 모델: %s</p>' % e(D["model"]))
-    w('<p><a href="../">답도 첫 화면</a></p>\n<p>운영자: 한재원</p>\n</footer>\n<script src="../assets/mast.js"></script>\n<script src="../assets/pin.js"></script>\n</body>\n</html>')
+    w('<p>%s운영자: 한재원</p>' % (('엮은 모델: %s | ' % e(D["model"])) if D.get("model") else ''))
+    w('<p><a href="../">답도 첫 화면</a></p>\n</footer>\n<script src="../assets/mast.js"></script>\n<script src="../assets/pin.js"></script>\n</body>\n</html>')
     os.makedirs(os.path.join(root, "issues"), exist_ok=True)
     open(os.path.join(root, "issues", iid + ".html"), "w", encoding="utf-8").write("\n".join(out) + "\n")
     if not test:
