@@ -1019,6 +1019,123 @@
   "groups": [
    {
     "cat": "art",
+    "journal": "동양미술사학",
+    "issue": "22호 (2026.3)",
+    "pub": "2026-03-31",
+    "items": [
+     {
+      "authors": "이용진",
+      "title": "고려시대 금속공예품의 명문 연구와 방향 －불교공예품을 중심으로－",
+      "url": "https://db.koreascholar.com/Article/Detail/450830"
+     },
+     {
+      "authors": "최국희",
+      "title": "조선시대 금속공예품의 명문 연구와 방향",
+      "url": "https://db.koreascholar.com/Article/Detail/450835"
+     },
+     {
+      "authors": "박정민",
+      "title": "조선시대 소비 유적 출토 명문 백자의 연구 양상과 활용 가치",
+      "url": "https://db.koreascholar.com/Article/Detail/450836"
+     },
+     {
+      "authors": "김희주",
+      "title": "근세 류큐왕국(琉球王國) 누각산수인물문 나전칠기의 중국풍 양식과 제작 의미",
+      "url": "https://db.koreascholar.com/Article/Detail/450832"
+     },
+     {
+      "authors": "오동진",
+      "title": "18세기 후반 〈이창운 초상(李昌運 肖像)〉 관복본(官服本)과 군복본(軍服本) 연구 －조선 후기 무관 초상화의 제작 일례(一例)－",
+      "url": "https://db.koreascholar.com/Article/Detail/450827"
+     },
+     {
+      "authors": "서윤정",
+      "title": "1803년 〈순조문묘친행작헌례계병 (純祖文廟親行酌獻禮稧屛)〉 연구 －〈서원아집도(西園雅集圖)〉 도상의 변용과 19세기 고사인물화 계병－",
+      "url": "https://db.koreascholar.com/Article/Detail/450828"
+     },
+     {
+      "authors": "김은정",
+      "title": "조선 후기 청화백자에 나타난 연속형 만자문(卍字紋)의 확산과 특징",
+      "url": "https://db.koreascholar.com/Article/Detail/450834"
+     },
+     {
+      "authors": "문애련",
+      "title": "중국 주사(朱砂)의 사용과 상징성 －선사시대부터 명대(明代)까지의 물질 문화적 고찰－",
+      "url": "https://db.koreascholar.com/Article/Detail/450837"
+     },
+     {
+      "authors": "조은정",
+      "title": "고려시대 청자전(靑瓷塼)의 용도와 제작 배경",
+      "url": "https://db.koreascholar.com/Article/Detail/450831"
+     },
+     {
+      "authors": "윤보름",
+      "title": "15세기 동아시아 무역도자와 조선 －한양도성 출토 중국 용천요(龍泉窯) 청자의 유형과 성격－",
+      "url": "https://db.koreascholar.com/Article/Detail/450826"
+     }
+    ]
+   },
+   {
+    "cat": "art",
+    "journal": "불교문화재연구",
+    "issue": "8호 (2026.5)",
+    "pub": "2026-05-31",
+    "items": [
+     {
+      "authors": "최선일, 이지현",
+      "title": "문헌으로 본 함흥예인 장홍심",
+      "url": "https://buddhistart.or.kr/forum/view/356926",
+      "flags": [
+       "서지 검증 필요"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "art",
+    "journal": "한국민화",
+    "issue": "24호 (2026.6)",
+    "pub": "2026-06-30",
+    "items": [
+     {
+      "authors": "이연주",
+      "title": "윤열수(尹烈秀, 1947~)의 민화 연구와 그 성과",
+      "url": "https://koreanacademyofminhwa.com/board/data/article/277851"
+     },
+     {
+      "authors": "이혜원",
+      "title": "허균의 전통미술 '상징'연구와 의의",
+      "url": "https://koreanacademyofminhwa.com/board/data/article/277851"
+     },
+     {
+      "authors": "엄유조, 정동원",
+      "title": "장한종 어해화의 매체 변용과 필법 지속성-경기도박물관 소장 《책가도 8폭 병풍》의 새우·연꽃 삽화를 중심으로",
+      "url": "https://koreanacademyofminhwa.com/board/data/article/277851"
+     },
+     {
+      "authors": "김영균",
+      "title": "계견사호도의 도상 체계와 변형 구조 연구-사자 도상 인식의 전개 과정을 중심으로",
+      "url": "https://koreanacademyofminhwa.com/board/data/article/277851"
+     },
+     {
+      "authors": "김미정",
+      "title": "양색(洋色)이 오다-국제 교역망 속 근대기 한국 회화문화유산의 색료(色料) 변용",
+      "url": "https://koreanacademyofminhwa.com/board/data/article/277851"
+     },
+     {
+      "authors": "전남언",
+      "title": "20세기 전반 조선총독부박물관 한국 서화 수집의 특징",
+      "url": "https://koreanacademyofminhwa.com/board/data/article/277852"
+     },
+     {
+      "authors": "심명주",
+      "title": "색채의 영적 기능 이해를 위한 初探-박생광 후기 무속화를 중심으로 한 '영적 색채'에 관한 탐색",
+      "url": "https://koreanacademyofminhwa.com/board/data/article/277852"
+     }
+    ]
+   },
+   {
+    "cat": "art",
     "journal": "강좌미술사",
     "issue": "66 (2026)",
     "pub": "",
@@ -1182,6 +1299,59 @@
       "authors": "杭侃",
       "title": "운강 제20굴 서벽 붕괴 시기와 담요오굴의 초기 배치 설계",
       "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003324495"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "헤리티지: 역사와 과학",
+    "issue": "59권 1호 (2026.3)",
+    "pub": "2026-03-30",
+    "items": [
+     {
+      "authors": "김경중",
+      "title": "조선 관요의 요도구와 백자 재임법의 변화",
+      "url": "https://koreascience.kr/article/JAKO202653354047896.page?lang=ko"
+     },
+     {
+      "authors": "김창석",
+      "title": "신라 동해안 3비의 진본성(Authenticity)과 완결성(Integrity)",
+      "url": "https://koreascience.kr/article/JAKO202653361273039.page?lang=ko"
+     },
+     {
+      "authors": "이성준",
+      "title": "국가지정유산 학술발굴 체계의 제도적 한계와 개선 방안 - 사적의 보존 원칙과 현행 발굴 행정의 정합성 제고를 중심으로 -",
+      "url": "https://koreascience.kr/article/JAKO202653350472623.page?lang=ko"
+     },
+     {
+      "authors": "이성훈",
+      "title": "갑주 생애의 종결과 전환 - 복천동고분군 갑주 매납 함의 -",
+      "url": "https://koreascience.kr/article/JAKO202653357719236.page?lang=ko"
+     },
+     {
+      "authors": "정다운",
+      "title": "수계 단위 분석을 통해 살펴본 전북 서남부지역 지석묘 연구의 현황과 과제",
+      "url": "https://koreascience.kr/article/JAKO202653354048273.page?lang=ko"
+     },
+     {
+      "authors": "유재상",
+      "title": "18세기 후반 상정파(尙淨派) 조각승 계초(戒初)와 봉현(封玹)의 불상 연구",
+      "url": "https://koreascience.kr/article/JAKO202653354048185.page?lang=ko"
+     },
+     {
+      "authors": "조진원",
+      "title": "고려시대 발우의 공양 대상과 기능",
+      "url": "https://koreascience.kr/article/JAKO202653354048235.page?lang=ko"
+     },
+     {
+      "authors": "이경화",
+      "title": "후백제 편운화상탑 - 구산팔해와 향로 도상의 결합",
+      "url": "https://koreascience.kr/article/JAKO202653350472945.page?lang=ko"
+     },
+     {
+      "authors": "오정심",
+      "title": "자기결정이론 기반 국가유산 주변 일상경관 관리 방안 연구: 강진군 귀농·귀촌인의 생활 서사 분석을 중심으로",
+      "url": "https://koreascience.kr/article/JAKO202653350472981.page?lang=ko"
      }
     ]
    },
@@ -1509,6 +1679,41 @@
     "journal": "미술사학보",
     "issue": "2026.06 발간호",
     "status": "목차 미확인"
+   },
+   {
+    "journal": "문화사학",
+    "issue": "2026.06 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "동양미술사학",
+    "issue": "22호 (2026.3)",
+    "status": "확인"
+   },
+   {
+    "journal": "한국근현대미술사학",
+    "issue": "2026.07 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "불교문화재연구",
+    "issue": "8호 (2026.5)",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "한국중세고고학",
+    "issue": "2026.06 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "한국민화",
+    "issue": "24호 (2026.6)",
+    "status": "확인"
+   },
+   {
+    "journal": "헤리티지: 역사와 과학",
+    "issue": "59권 1호 (2026.3)",
+    "status": "확인"
    }
   ]
  },
