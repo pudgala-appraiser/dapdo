@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """이달 확인할 국내 학술지(파일 30종)를 발간 달력으로 가린다.
 사용: python3 tools/due.py [오늘 YYYY-MM-DD]
-state.json의 file_checked[학술지] 다음 날부터 오늘까지 발간일이 든 학술지를 출력한다."""
+state.json의 file_checked[학술지] 다음 날부터 오늘까지 발간일이 든 학술지를 출력한다.
+cadence가 quarterly인 학술지는 1·4·7·10월에만 확인 대상으로 낸다."""
 import json, sys, datetime, os
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 J = json.load(open(os.path.join(root, 'data', 'journals.json'), encoding='utf-8'))
@@ -13,13 +14,20 @@ def clamp(y, md):
     while True:
         try: return datetime.date(y, m, d)
         except ValueError: d -= 1
-due, idle = [], []
+due, idle, later = [], [], []
+quarter_month = today.month in (1, 4, 7, 10)
 for j in J['file']:
     since = datetime.date.fromisoformat(S['file_checked'].get(j['name'], base.isoformat()))
     hits = sorted(dt for y in (today.year - 1, today.year) for md in j['pub'] for dt in [clamp(y, md)] if since < dt <= today)
-    (due if hits else idle).append((j, hits))
-print('# 확인 대상 %d종 (기준일 %s)' % (len(due), today))
+    if hits and j.get('cadence') == 'quarterly' and not quarter_month:
+        later.append((j, hits))
+    else:
+        (due if hits else idle).append((j, hits))
+# 미술사 전문지(전 논문 목록)를 먼저 본다
+due.sort(key=lambda jh: 0 if jh[0]['mode'] == 'all' else 1)
+print('# 확인 대상 %d종 (기준일 %s) — 위에서부터 차례로 본다' % (len(due), today))
 for j, hits in due:
     print('- %s | %s | 발간일 %s%s | %s%s' % (j['name'], j['publisher'], ', '.join(h.isoformat() for h in hits), ' (추정)' if j.get('est') else '',
           '전 논문 목록' if j['mode'] == 'all' else '관련 논문만', ' | ' + j['note'] if j.get('note') else ''))
+print('# 분기 점검 대상이라 이번 달은 건너뜀 %d종(1·4·7·10월에 확인): %s' % (len(later), ', '.join(j['name'] for j, _ in later)))
 print('# 이달 발간 예정 없음 %d종: %s' % (len(idle), ', '.join(j['name'] for j, _ in idle)))

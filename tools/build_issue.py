@@ -3,7 +3,8 @@
 사용: python3 tools/build_issue.py data/issues/2026-11.json [--no-index] [--allow-dup]
 - 필수 항목이 비었거나 링크가 http(s)로 시작하지 않으면 멈춘다.
 - 앞선 호에 이미 실은 문헌(같은 링크 또는 같은 제목)이 있으면 멈춘다(--allow-dup으로 넘길 수 있다).
-- id가 test로 시작하거나 --no-index를 주면 issues.json(지난 호 목록)은 건드리지 않는다."""
+- id가 test로 시작하거나 --no-index를 주면 issues.json(지난 호 목록)은 건드리지 않는다.
+- 자료에 "label"이 있으면 "제N호" 대신 그 이름을 쓴다(예: 창간 준비호, "no": 0). 다음 호 번호는 가장 큰 no에 1을 더한다."""
 import json, sys, os, re, html, glob
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -73,8 +74,9 @@ def main():
     idx_path = os.path.join(root, "issues.json")
     idx = json.load(open(idx_path, encoding="utf-8")) if os.path.exists(idx_path) else []
     prev = next((x for x in idx if x["id"] == iid), None)
-    no = D.get("no") or (prev["no"] if prev else (max([x["no"] for x in idx] or [0]) + 1))
-    label = "시험호" if test else "제%s호" % no
+    no = D["no"] if "no" in D else (prev["no"] if prev else (max([x["no"] for x in idx] or [0]) + 1))
+    issue_label = D.get("label") or (prev or {}).get("label")
+    label = "시험호" if test else (issue_label or "제%s호" % no)
 
     out = []
     w = out.append
@@ -136,7 +138,9 @@ def main():
     os.makedirs(os.path.join(root, "issues"), exist_ok=True)
     open(os.path.join(root, "issues", iid + ".html"), "w", encoding="utf-8").write("\n".join(out) + "\n")
     if not test:
-        idx = [x for x in idx if x["id"] != iid] + [{"id": iid, "no": no, "title": D["title"], "date": D["date"], "count": n_items}]
+        entry = {"id": iid, "no": no, "title": D["title"], "date": D["date"], "count": n_items}
+        if issue_label: entry["label"] = issue_label
+        idx = [x for x in idx if x["id"] != iid] + [entry]
         idx.sort(key=lambda x: x["id"])
         json.dump(idx, open(idx_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("완료: issues/%s.html — %s, 문헌 %d건(정밀 요약 %d건)%s%s" % (iid, label, n_items, n_deep, ", 지난 호 목록 갱신" if not test else ", 지난 호 목록은 그대로", (", 중복 경고 %d건" % len(dups)) if dups else ""))

@@ -64,7 +64,7 @@ footer p{margin:0 0 6px}
 .archive li{border-bottom:1px solid var(--hair)}
 .archive li a{display:flex;gap:20px;align-items:baseline;padding:14px 4px;text-decoration:none;flex-wrap:wrap}
 .archive li a:hover{background:var(--paper2)}
-.archive .no{font-family:var(--mj);font-weight:800;color:var(--skyt);min-width:64px}
+.archive .no{font-family:var(--mj);font-weight:800;color:var(--skyt);min-width:96px}
 .archive .tt{font-family:var(--mj);font-weight:700;font-size:18px}
 .archive .ct{font-size:13px;color:var(--sub)}
 #noissue{color:var(--sub);font-size:14px}

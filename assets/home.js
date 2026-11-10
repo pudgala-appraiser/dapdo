@@ -19,7 +19,7 @@
     list.sort(function (a, b) { return a.id < b.id ? 1 : -1; });
     var ol = document.getElementById('issues');
     ol.innerHTML = list.map(function (it) {
-      return '<li><a href="issues/' + encodeURIComponent(it.id) + '.html"><span class="no">제' + esc(it.no) + '호</span>' +
+      return '<li><a href="issues/' + encodeURIComponent(it.id) + '.html"><span class="no">' + esc(it.label || ('제' + it.no + '호')) + '</span>' +
         '<span class="tt">' + esc(it.title) + '</span><span class="ct">' + esc(it.count) + '건 · ' + esc(it.date) + '</span></a></li>';
     }).join('');
     document.getElementById('noissue').hidden = true;

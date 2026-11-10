@@ -1,5 +1,5 @@
 {
- "_설명": "국내 조사 대상 60종. file=학회 누리집·학술 DB 검색으로 확인하는 30종, portal=불교학논문 통합검색 저장소로 확인하는 30종. pub은 발간일(MM-DD), est=true는 발간 횟수만 알고 날짜는 추정. mode all=수록 논문 전부를 목록에 싣는다, filter=미술·유물·건축·고고·불교·문화유산 관련 논문만.",
+ "_설명": "국내 조사 대상 60종. file=학회 누리집·학술 DB 검색으로 확인하는 30종, portal=불교학논문 통합검색 저장소로 확인하는 30종. pub은 발간일(MM-DD), est=true는 발간 횟수만 알고 날짜는 추정. mode all=수록 논문 전부를 목록에 싣는다, filter=미술·유물·건축·고고·불교·문화유산 관련 논문만. cadence=quarterly는 역사 계열로, 1·4·7·10월 실행에서만 확인한다(검색 한도 때문).",
  "portal_all": [
   "불교미술사학",
   "동악미술사학",
@@ -39,7 +39,8 @@
     "12-10"
    ],
    "mode": "filter",
-   "note": "구 『정신문화연구』"
+   "note": "구 『정신문화연구』",
+   "cadence": "quarterly"
   },
   {
    "name": "미술사연구",
@@ -68,7 +69,8 @@
     "09-30",
     "12-31"
    ],
-   "mode": "filter"
+   "mode": "filter",
+   "cadence": "quarterly"
   },
   {
    "name": "한국고대사탐구",
@@ -122,7 +124,8 @@
     "09-30",
     "12-31"
    ],
-   "mode": "filter"
+   "mode": "filter",
+   "cadence": "quarterly"
   },
   {
    "name": "미술사와 시각문화",
@@ -207,7 +210,8 @@
     "12-31"
    ],
    "mode": "filter",
-   "est": true
+   "est": true,
+   "cadence": "quarterly"
   },
   {
    "name": "사학연구",
@@ -219,7 +223,8 @@
     "12-31"
    ],
    "mode": "filter",
-   "est": true
+   "est": true,
+   "cadence": "quarterly"
   },
   {
    "name": "역사와 현실",
@@ -231,7 +236,8 @@
     "12-31"
    ],
    "mode": "filter",
-   "est": true
+   "est": true,
+   "cadence": "quarterly"
   },
   {
    "name": "역사와 담론",
@@ -243,7 +249,8 @@
     "12-31"
    ],
    "mode": "filter",
-   "est": true
+   "est": true,
+   "cadence": "quarterly"
   },
   {
    "name": "동방학지",
@@ -255,7 +262,8 @@
     "12-31"
    ],
    "mode": "filter",
-   "est": true
+   "est": true,
+   "cadence": "quarterly"
   },
   {
    "name": "선사와 고대",
@@ -266,7 +274,8 @@
     "12-31"
    ],
    "mode": "filter",
-   "est": true
+   "est": true,
+   "cadence": "quarterly"
   },
   {
    "name": "신라문화",
@@ -288,7 +297,8 @@
     "12-31"
    ],
    "mode": "filter",
-   "est": true
+   "est": true,
+   "cadence": "quarterly"
   },
   {
    "name": "중국사연구",
@@ -302,7 +312,8 @@
     "12-31"
    ],
    "mode": "filter",
-   "est": true
+   "est": true,
+   "cadence": "quarterly"
   },
   {
    "name": "구비문학연구",
@@ -314,7 +325,8 @@
     "12-31"
    ],
    "mode": "filter",
-   "est": true
+   "est": true,
+   "cadence": "quarterly"
   },
   {
    "name": "고문화",

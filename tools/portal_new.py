@@ -33,7 +33,7 @@ for (jn, y, v, i), dates in sorted(issues.items(), key=lambda kv: min(kv[1])):
             print('  쪽: %s-%s | 링크: %s' % (a.get('start_page', ''), a.get('end_page', ''), a.get('kci_url') or a.get('riss_url') or a.get('doi') or ''))
             if a.get('keywords_kr'): print('  주제어: %s' % ', '.join(a['keywords_kr']))
             ab = (a.get('abstract_kr') or a.get('abstract_en') or '').replace('\n', ' ')
-            print('  초록: %s' % (ab[:900] if ab else '(없음)'))
+            print('  초록: %s' % (ab[:2600] if ab else '(없음)'))
         else:
             rest.append(a.get('title_kr', ''))
     if rest:
