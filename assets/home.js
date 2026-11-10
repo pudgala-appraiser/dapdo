@@ -1,4 +1,4 @@
-// 답도 메인: 화면 폭에 맞춰 그림(경주 남산리 서삼층석탑 동면 야차·용)을 줄이고, 지난 호 목록을 읽어 온다.
+// 답도 메인: 화면 폭에 맞춰 그림(경주 남산동 서삼층석탑 동면 야차·용)을 줄이고, 지난 호 목록을 읽어 온다.
 (function () {
   var hero = document.getElementById('hero'), box = document.getElementById('stagebox');
   function fit() {
