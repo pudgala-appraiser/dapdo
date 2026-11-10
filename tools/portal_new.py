@@ -11,7 +11,9 @@ J = json.load(open(os.path.join(root, 'data', 'journals.json'), encoding='utf-8'
 K = json.load(open(os.path.join(root, 'data', 'keywords.json'), encoding='utf-8'))
 since = S.get('portal_since', '2026-09-25')
 rx = re.compile(K['portal_filter'], re.I)
-ups = [u for u in json.load(open(os.path.join(P, 'output', 'updates.json'), encoding='utf-8'))['updates'] if u['date'] > since]
+uf = os.path.join(P, 'output', 'updates.json')
+if not os.path.exists(uf): sys.exit('오류: %s 가 없다. 포털 저장소의 짜임이 바뀌었는지 확인하고, 이 갈래는 checked에 "목차 미확인"으로 적는다.' % uf)
+ups = [u for u in json.load(open(uf, encoding='utf-8'))['updates'] if u['date'] > since]
 issues = {}
 for u in ups:
     issues.setdefault((u['journal'], str(u['year']), str(u.get('volume', '')), str(u.get('issue', ''))), []).append(u['date'])

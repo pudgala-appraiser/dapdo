@@ -2,7 +2,10 @@
 """월호 자료(JSON)를 검사해 issues/<id>.html을 만들고 issues.json을 고친다.
 사용: python3 tools/build_issue.py data/issues/2026-11.json [--no-index] [--allow-dup]
 - 필수 항목이 비었거나 링크가 http(s)로 시작하지 않으면 멈춘다.
-- 앞선 호에 이미 실은 문헌(같은 링크 또는 같은 제목)이 있으면 멈춘다(--allow-dup으로 넘길 수 있다).
+- 앞선 호에 이미 실은 문헌이 있으면 멈춘다(--allow-dup으로 넘길 수 있다). 같은 호 안에서 겹쳐도 멈춘다.
+  겹침은 제목이 같거나 주소 속 식별 번호(DOI·arXiv·JAKO·KCI ART 등)가 같을 때로 본다. 목차 주소는 여러 논문이 함께 쓰므로 주소만으로는 가리지 않는다.
+- 저자를 확인하지 못한 문헌은 학술지명(『 』)이나 식별 번호가 든 주소(DOI·arXiv 등) 가운데 하나는 있어야 싣는다.
+- 자료에 "updated"가 있으면 발행일 옆에 보탠 날을 함께 적는다. 첫 화면(index.html)의 지난 호 목록과 '이번 호' 링크도 함께 고친다.
 - id가 test로 시작하거나 --no-index를 주면 issues.json(지난 호 목록)은 건드리지 않는다.
 - 자료에 "label"이 있으면 "제N호" 대신 그 이름을 쓴다(예: 창간 준비호, "no": 0). 다음 호 번호는 가장 큰 no에 1을 더한다."""
 import json, sys, os, re, html, glob
@@ -10,9 +13,26 @@ import json, sys, os, re, html, glob
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECTIONS = [("art", "一", "불교미술·미술사"), ("heritage", "二", "문화유산학·법제"), ("science", "三", "AI·과학과 문화유산"), ("books", "四", "신간")]
 FLAGS = {"초록만 확인", "목차만 확인", "서지 검증 필요", "본문 미확인", "원제 미확인"}
+LEGEND = [("초록만 확인", "은 본문을 보지 못하고 초록으로 쓴 요지"), ("목차만 확인", "은 목차에서 서지만 확인한 문헌"), ("서지 검증 필요", "는 원문 DB에서 서지를 끝까지 대조하지 못한 문헌"),
+          ("본문 미확인", "은 책을 보지 못하고 출판사 소개 등으로 쓴 신간"), ("원제 미확인", "은 한국어 원제를 찾지 못해 영문 제목으로 실은 국내 논문")]
 DEEP = [("material", "자료"), ("method", "방법"), ("significance", "의의"), ("limits", "한계")]
+IDENT = [r"(10\.\d{4,9}/[^\s?#]+)", r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})", r"(JAKO\d{6,})", r"(ART\d{6,})", r"abstract_id=(\d+)", r"/pii/(S\w+)",
+         r"mdpi\.com/(\d{4}-\d{4}/\d+/\d+/\d+)", r"nature\.com/articles/([\w.-]+)"]
 e = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 norm = lambda s: re.sub(r"[\W_]+", "", str(s or "")).lower()
+
+def ident(url):
+    """주소에서 문헌을 가리키는 번호를 뽑는다. 없으면 빈 문자열."""
+    for rx in IDENT:
+        m = re.search(rx, str(url or ""), re.I)
+        if m: return m.group(1).lower().rstrip("/.")
+    return ""
+
+def keys(it):
+    """겹침을 가리는 열쇠: 제목(여섯 자 이상일 때)과 주소 속 식별 번호."""
+    t = norm(it.get("title")); k = ["t:" + t] if len(t) >= 6 else []
+    i = ident(it.get("url"))
+    return k + (["i:" + i] if i else [])
 
 def fail(msg):
     print("오류: " + msg); sys.exit(1)
@@ -22,6 +42,8 @@ def check_item(it, where, need_summary):
         if not str(it.get(k, "")).strip(): fail("%s: '%s' 비어 있음 — %s" % (where, k, it.get("title", "")[:40]))
     if not re.match(r"https?://", it["url"]): fail("%s: 링크가 http(s)로 시작하지 않음 — %s" % (where, it["url"]))
     if need_summary and not str(it.get("summary", "")).strip() and not it.get("deep"): fail("%s: 요지 없음 — %s" % (where, it["title"][:40]))
+    if not str(it.get("authors", "")).strip() and "『" not in it["venue"] and not ident(it["url"]):
+        fail("%s: 저자가 비면 학술지명(『 』)이나 식별 번호가 든 주소(DOI·arXiv 등)가 있어야 한다 — %s" % (where, it["title"][:40]))
     for f in it.get("flags", []):
         if f not in FLAGS: fail("%s: 허용되지 않은 표시 '%s' (허용: %s)" % (where, f, ", ".join(sorted(FLAGS))))
     d = it.get("deep")
@@ -36,6 +58,21 @@ def title_html(it):
 
 def meta(it):
     return " · ".join(x for x in (e(it.get("authors", "")), e(it["venue"])) if x)
+
+def write_home(idx):
+    """첫 화면의 지난 호 목록과 '이번 호' 링크를 고친다(스크립트 없이도 목록이 보이게)."""
+    p = os.path.join(root, "index.html")
+    if not os.path.exists(p): return
+    h = open(p, encoding="utf-8").read()
+    m = re.search(r"<!--issues:start-->.*?<!--issues:end-->", h, re.S)
+    if not m: print("주의: index.html에 목록 표지(<!--issues:start-->)가 없어 첫 화면은 고치지 않았다."); return
+    rows = sorted(idx, key=lambda x: x["id"], reverse=True)
+    li = "\n".join('<li><a href="issues/%s.html"><span class="no">%s</span><span class="tt">%s</span><span class="ct">%s건 · %s</span></a></li>'
+                   % (e(x["id"]), e(x.get("label") or "제%s호" % x["no"]), e(x["title"]), e(x["count"]), e(x["date"])) for x in rows)
+    block = "<!--issues:start-->\n" + ('<ol id="issues">\n%s\n</ol>' % li if rows else '<ol id="issues"></ol>\n<p id="noissue">아직 발행한 호가 없습니다.</p>') + "\n<!--issues:end-->"
+    h = h[:m.start()] + block + h[m.end():]
+    if rows: h = re.sub(r'(id="latest" href=")[^"]*(")', lambda k: k.group(1) + "issues/%s.html" % rows[0]["id"] + k.group(2), h)
+    open(p, "w", encoding="utf-8").write(h)
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
@@ -58,8 +95,8 @@ def main():
         if str(P.get("id", "")).startswith("test") or str(P.get("id", "")) == "sample": continue
         for s in P.get("sections", []):
             for it in s.get("items", []) + s.get("more", []):
-                seen[norm(it.get("url"))] = P["id"]; seen[norm(it.get("title"))] = P["id"]
-    dups, n_items, n_deep = [], 0, 0
+                for k in keys(it): seen[k] = P["id"]
+    dups, n_items, n_deep, local, used = [], 0, 0, {}, set()
     for key, num, name in SECTIONS:
         s = secs.get(key) or {}
         for it in s.get("items", []):
@@ -67,8 +104,13 @@ def main():
         for it in s.get("more", []):
             check_item(it, name + "(목록)", False); n_items += 1
         for it in s.get("items", []) + s.get("more", []):
-            for k in (norm(it["url"]), norm(it["title"])):
-                if k and k in seen: dups.append("%s ← %s호에 이미 실림" % (it["title"][:50], seen[k])); break
+            used.update(it.get("flags", []))
+            ks = keys(it)
+            for k in ks:
+                if k in local: fail("같은 호 안에서 겹치는 문헌: %s ↔ %s" % (it["title"][:50], local[k][:50]))
+            for k in ks: local[k] = it["title"]
+            for k in ks:
+                if k in seen: dups.append("%s ← %s호에 이미 실림" % (it["title"][:50], seen[k])); break
     if dups and "--allow-dup" not in opts and not test:
         fail("앞선 호와 겹치는 문헌 %d건:\n  " % len(dups) + "\n  ".join(dups))
     idx_path = os.path.join(root, "issues.json")
@@ -84,6 +126,7 @@ def main():
     w('<title>답도 踏道 %s — %s</title>' % (e(label), e(D["title"])))
     w('<meta name="description" content="%s">' % e(D["lead"][:150]))
     if test: w('<meta name="robots" content="noindex">')
+    w('<link rel="icon" href="data:,">')
     w('<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>')
     w('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700;800&amp;family=Noto+Sans+KR:wght@400;700&amp;display=swap">')
     w('<link rel="stylesheet" href="../assets/dapdo.css">\n</head>\n<body class="issue">')
@@ -91,7 +134,8 @@ def main():
     w('<div class="mast">\n<div>\n<div class="mast-art" id="mast-art" role="img" aria-label="연필로 그린 경주 장항리 서오층석탑 1층 탑신 북면. 가운데 문비에 귀면 문고리 한 쌍이 있고, 좌우 연화좌 위에 금강역사가 한 구씩 서 있다."></div>')
     w('<p class="figcap">경주 장항리 서오층석탑 · 1층 탑신 북면</p>\n</div>')
     w('<div class="mast-ttl">\n<div class="h"><h1>답도</h1><span class="seal">月報</span></div>\n<p class="sub">불교미술·문화유산 연구 성과 월보</p>')
-    w('<p class="no">%s · %s 발행</p>\n<ul class="toc">' % (e(label), e(D["date"])))
+    added = (" · %s 보탬" % e(D["updated"])) if D.get("updated") and D["updated"] != D["date"] else ""
+    w('<p class="no">%s · %s 발행%s</p>\n<ul class="toc">' % (e(label), e(D["date"]), added))
     for key, num, name in SECTIONS:
         s = secs.get(key) or {}
         c = len(s.get("items", [])) + len(s.get("more", []))
@@ -139,7 +183,8 @@ def main():
             w('<tr><td>%s</td><td>%s</td><td>%s</td></tr>' % (e(c.get("journal")), e(c.get("issue", "")), e(c.get("status", ""))))
         w('</tbody></table></div>\n</details>\n</section>')
     w('</main>\n<footer>\n<p>본문은 AI(Claude)가 공개된 서지와 초록을 바탕으로 엮었습니다. 요지는 원문을 대신하지 않으니, 인용하기 전에 원문을 확인해 주십시오.</p>')
-    w('<p>‘초록만 확인’은 본문을 보지 못하고 초록으로 쓴 요지, ‘목차만 확인’은 목차에서 서지만 확인한 문헌, ‘서지 검증 필요’는 원문 DB에서 서지를 끝까지 대조하지 못한 문헌입니다.</p>')
+    lg = ["‘%s’%s" % (f, t) for f, t in LEGEND if f in used]
+    if lg: w('<p>%s입니다.</p>' % e(", ".join(lg)))
     w('<p>%s운영자: 한재원</p>' % (('엮은 모델: %s | ' % e(D["model"])) if D.get("model") else ''))
     w('<p><a href="../">답도 첫 화면</a></p>\n</footer>\n<script src="../assets/mast.js"></script>\n<script src="../assets/pin.js"></script>\n</body>\n</html>')
     os.makedirs(os.path.join(root, "issues"), exist_ok=True)
@@ -150,6 +195,8 @@ def main():
         idx = [x for x in idx if x["id"] != iid] + [entry]
         idx.sort(key=lambda x: x["id"])
         json.dump(idx, open(idx_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        write_home(idx)
+    if n_deep > 5: print("주의: 정밀 요약이 %d건이다(한 호에 3~5건)." % n_deep)
     print("완료: issues/%s.html — %s, 문헌 %d건(정밀 요약 %d건)%s%s" % (iid, label, n_items, n_deep, ", 지난 호 목록 갱신" if not test else ", 지난 호 목록은 그대로", (", 중복 경고 %d건" % len(dups)) if dups else ""))
 
 main()

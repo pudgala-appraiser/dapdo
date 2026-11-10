@@ -1,4 +1,4 @@
-// 답도 메인: 화면 폭에 맞춰 그림(경주 남산동 서삼층석탑 동면 야차·용)을 줄이고, 지난 호 목록을 읽어 온다.
+// 답도 메인: 화면 폭에 맞춰 그림(경주 남산동 서삼층석탑 동면 야차·용)을 줄인다. 지난 호 목록은 tools/build_issue.py가 index.html에 써 넣는다.
 (function () {
   var hero = document.getElementById('hero'), box = document.getElementById('stagebox');
   function fit() {
@@ -19,16 +19,4 @@
     if (obj) URL.revokeObjectURL(obj);
     obj = URL.createObjectURL(blob); cover.src = obj;
   });
-  function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : String(s); return d.innerHTML; }
-  fetch('issues.json', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : []; }).then(function (list) {
-    if (!list || !list.length) return;
-    list.sort(function (a, b) { return a.id < b.id ? 1 : -1; });
-    var ol = document.getElementById('issues');
-    ol.innerHTML = list.map(function (it) {
-      return '<li><a href="issues/' + encodeURIComponent(it.id) + '.html"><span class="no">' + esc(it.label || ('제' + it.no + '호')) + '</span>' +
-        '<span class="tt">' + esc(it.title) + '</span><span class="ct">' + esc(it.count) + '건 · ' + esc(it.date) + '</span></a></li>';
-    }).join('');
-    document.getElementById('noissue').hidden = true;
-    document.getElementById('latest').href = 'issues/' + encodeURIComponent(list[0].id) + '.html';
-  }).catch(function () {});
 })();
