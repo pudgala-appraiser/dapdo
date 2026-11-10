@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""이번 호에 확인할 국내 학술지(파일 33종)를 발간 달력으로 가린다.
+"""이번 호에 확인할 국내 학술지(파일 34종)를 발간 달력으로 가린다.
 사용: python3 tools/due.py [오늘 YYYY-MM-DD]
 state.json의 file_checked[학술지] 다음 날부터 오늘까지 발간일이 든 학술지를 출력한다.
 답도는 홀수 달 15일에 내는 격월간이다. cadence가 quarterly인 학술지(역사 계열)는 한 해 네 번,
