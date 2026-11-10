@@ -294,6 +294,22 @@
    "status": "todo"
   },
   {
+   "id": "t63",
+   "kind": "toc",
+   "journal": "국학연구",
+   "pub": "2026-03-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
+   "id": "t64",
+   "kind": "toc",
+   "journal": "국학연구",
+   "pub": "2026-07-31",
+   "mode": "filter",
+   "status": "todo"
+  },
+  {
    "id": "t30",
    "kind": "toc",
    "journal": "한국학",
