@@ -140,7 +140,8 @@
    "id": "t11",
    "kind": "search",
    "name": "해외의 한국미술·신중상 관련 글(2026년 발행)",
-   "status": "todo"
+   "status": "done",
+   "checked": "2026-11-11"
   },
   {
    "id": "t12",
@@ -158,7 +159,9 @@
    "journal": "헤리티지: 역사와 과학",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "done",
+   "checked": "2026-11-11",
+   "issue": "59권 2호 (2026.6)"
   },
   {
    "id": "t61",
@@ -166,7 +169,9 @@
    "journal": "박물관과 연구",
    "pub": "2026-06-20",
    "mode": "filter",
-   "status": "todo"
+   "status": "done",
+   "checked": "2026-11-11",
+   "issue": "5집 (2026.6)"
   },
   {
    "id": "t62",
@@ -174,7 +179,8 @@
    "journal": "동원학술논문집",
    "pub": "2026-07-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-11"
   },
   {
    "id": "t14",
@@ -182,7 +188,8 @@
    "journal": "한국고대사탐구",
    "pub": "2026-04-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-11"
   },
   {
    "id": "t15",
