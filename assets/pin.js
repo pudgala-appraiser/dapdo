@@ -1,4 +1,4 @@
-// 답도 월호: 따라다니는 목차에서 지금 읽는 부문을 표시한다.
+// 답도 호 쪽: 따라다니는 목차에서 지금 읽는 부문을 표시한다.
 (function () {
   var pin = document.getElementById('pin'); if (!pin) return;
   var links = [].slice.call(pin.querySelectorAll('a[href^="#"]')).filter(function (a) { return a.getAttribute('href') !== '#top'; });

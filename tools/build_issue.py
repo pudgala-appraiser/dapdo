@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""월호 자료(JSON)를 검사해 issues/<id>.html을 만들고 issues.json을 고친다.
+"""호 자료(JSON)를 검사해 issues/<id>.html을 만들고 issues.json을 고친다.
 사용: python3 tools/build_issue.py data/issues/2026-11.json [--no-index] [--allow-dup]
 - 필수 항목이 비었거나 링크가 http(s)로 시작하지 않으면 멈춘다.
 - 앞선 호에 이미 실은 문헌이 있으면 멈춘다(--allow-dup으로 넘길 수 있다). 같은 호 안에서 겹쳐도 멈춘다.
@@ -7,7 +7,8 @@
 - 저자를 확인하지 못한 문헌은 학술지명(『 』)이나 식별 번호가 든 주소(DOI·arXiv 등) 가운데 하나는 있어야 싣는다.
 - 자료에 "updated"가 있으면 발행일 옆에 보탠 날을 함께 적는다. 첫 화면(index.html)의 지난 호 목록과 '이번 호' 링크도 함께 고친다.
 - id가 test로 시작하거나 --no-index를 주면 issues.json(지난 호 목록)은 건드리지 않는다.
-- 자료에 "label"이 있으면 "제N호" 대신 그 이름을 쓴다(예: 창간 준비호, "no": 0). 다음 호 번호는 가장 큰 no에 1을 더한다."""
+- 자료에 "label"이 있으면 "제N호" 대신 그 이름을 쓴다(예: 창간호, "no": 1). 다음 호 번호는 가장 큰 no에 1을 더한다.
+- 답도는 홀수 달(1·3·5·7·9·11월) 15일에 내는 격월간이다. 호의 id는 발행한 달(YYYY-MM)이다."""
 import json, sys, os, re, html, glob
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -130,10 +131,10 @@ def main():
     w('<link rel="preconnect" href="https://fonts.googleapis.com">\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>')
     w('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700;800&amp;family=Noto+Sans+KR:wght@400;700&amp;display=swap">')
     w('<link rel="stylesheet" href="../assets/dapdo.css">\n</head>\n<body class="issue">')
-    w('<header class="wrap" id="top">\n<div class="topbar"><a class="cap" href="../">踏道 · MONTHLY REVIEW OF SCHOLARSHIP</a><span>%s · %s</span></div>' % (e(label), e(D["title"])))
+    w('<header class="wrap" id="top">\n<div class="topbar"><a class="cap" href="../">踏道 · BIMONTHLY REVIEW OF SCHOLARSHIP</a><span>%s · %s</span></div>' % (e(label), e(D["title"])))
     w('<div class="mast">\n<div>\n<div class="mast-art" id="mast-art" role="img" aria-label="연필로 그린 경주 장항리 서오층석탑 1층 탑신 북면. 가운데 문비에 귀면 문고리 한 쌍이 있고, 좌우 연화좌 위에 금강역사가 한 구씩 서 있다."></div>')
     w('<p class="figcap">경주 장항리 서오층석탑 · 1층 탑신 북면</p>\n</div>')
-    w('<div class="mast-ttl">\n<div class="h"><h1>답도</h1><span class="seal">月報</span></div>\n<p class="sub">불교미술·문화유산 연구 성과 월보</p>')
+    w('<div class="mast-ttl">\n<div class="h"><h1>답도</h1><span class="seal">隔月刊</span></div>\n<p class="sub">불교미술·문화유산 연구 성과 격월간</p>')
     added = (" · %s 보탬" % e(D["updated"])) if D.get("updated") and D["updated"] != D["date"] else ""
     w('<p class="no">%s · %s 발행%s</p>\n<ul class="toc">' % (e(label), e(D["date"]), added))
     for key, num, name in SECTIONS:
@@ -166,7 +167,7 @@ def main():
         plain = [it for it in s.get("items", []) if not it.get("deep")]
         refd = [it for it in s.get("items", []) if it.get("deep")]
         if not s.get("items") and not s.get("more"):
-            w('<p class="none">이번 달 신규 없음.</p>')
+            w('<p class="none">이번 호 신규 없음.</p>')
         for it in plain:
             w('<article class="item">\n<h3>%s</h3>\n<p class="meta">%s</p>\n<p class="sum">%s</p>\n</article>' % (title_html(it), meta(it), e(it.get("summary", ""))))
         if refd:
@@ -178,7 +179,7 @@ def main():
             w('</ul>\n</details>')
         w('</section>')
     if D.get("checked"):
-        w('<section aria-labelledby="h-chk">\n<h2 id="h-chk">이달 점검한 학술지</h2>\n<details><summary>%d종 펼쳐 보기</summary>\n<div class="tblbox"><table class="chk"><thead><tr><th>학술지</th><th>확인한 호</th><th>결과</th></tr></thead><tbody>' % len(D["checked"]))
+        w('<section aria-labelledby="h-chk">\n<h2 id="h-chk">이번 호에 점검한 학술지</h2>\n<details><summary>%d종 펼쳐 보기</summary>\n<div class="tblbox"><table class="chk"><thead><tr><th>학술지</th><th>확인한 호</th><th>결과</th></tr></thead><tbody>' % len(D["checked"]))
         for c in D["checked"]:
             w('<tr><td>%s</td><td>%s</td><td>%s</td></tr>' % (e(c.get("journal")), e(c.get("issue", "")), e(c.get("status", ""))))
         w('</tbody></table></div>\n</details>\n</section>')

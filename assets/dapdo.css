@@ -64,7 +64,7 @@ footer p{margin:0 0 6px}
 .archive .ct{font-size:13px;color:var(--sub)}
 #noissue{color:var(--sub);font-size:14px}
 
-/* ── 월호 */
+/* ── 호 쪽 */
 .issue .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
 .topbar{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding:20px 0 14px;border-bottom:1px solid var(--hair)}
 .topbar a{text-decoration:none}
