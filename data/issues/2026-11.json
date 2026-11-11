@@ -1606,6 +1606,103 @@
    },
    {
     "cat": "other",
+    "journal": "건축역사연구",
+    "issue": "35권 1호 (2026.2)",
+    "pub": "2026-02-28",
+    "items": [
+     {
+      "authors": "김인수",
+      "title": "익산 미륵사지 석탑 탑신 가구식 구조 축조방식의 형성 배경에 관한 연구",
+      "url": "https://koreascience.kr/article/JAKO202609239763242.page?lang=ko"
+     },
+     {
+      "authors": "노경민",
+      "title": "만주 돈도선(돈화-도문(敦化-圖們))의 부설과 철도역사 건축에 관한 연구",
+      "url": "https://koreascience.kr/article/JAKO202609254157607.page?lang=ko"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "건축역사연구",
+    "issue": "35권 2호 (2026.4)",
+    "pub": "2026-04-30",
+    "items": [
+     {
+      "authors": "강성원",
+      "title": "국가등록문화유산 서천 판교 근대역사문화공간 제도적 개선 방안 연구",
+      "url": "https://koreascience.kr/article/JAKO202613939726548.page?lang=ko"
+     },
+     {
+      "authors": "이규철",
+      "title": "대한의원 건축공사의 과정과 배치계획적 특성 연구",
+      "url": "https://koreascience.kr/article/JAKO202613939727430.page?lang=ko"
+     },
+     {
+      "authors": "최승호, 류성룡",
+      "title": "신한옥마을 공간구조가 건축 실현에 미치는 영향에 관한 연구 - 은평한옥마을을 중심으로 -",
+      "url": "https://koreascience.kr/article/JAKO202613857713863.page?lang=ko"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "건축역사연구",
+    "issue": "35권 3호 (2026.6)",
+    "pub": "2026-06-30",
+    "items": [
+     {
+      "authors": "엄준혁, 도진영",
+      "title": "근대 조적조 건축물의 원형보존기술연구 - 칠곡 가실성당 벽돌의 강화제 적용효과를 중심으로 -",
+      "url": "https://koreascience.kr/article/JAKO202619761325885.page?lang=ko"
+     },
+     {
+      "authors": "박새미",
+      "title": "전통 목구조 살림집 회첨부의 지붕가구 유형과 지역적 특성",
+      "url": "https://koreascience.kr/article/JAKO202620136147874.page?lang=ko"
+     },
+     {
+      "authors": "오정현, 이우종",
+      "title": "익산 미륵사지 석탑 보수정비 원칙을 통해 본 한국 석조 문화유산의 역사적 원형 보존과 진정성 연구",
+      "url": "https://koreascience.kr/article/JAKO202620139740300.page?lang=ko"
+     },
+     {
+      "authors": "최은지, 우동선, 강영지",
+      "title": "1970년대 오키나와 현대 건축의 지역성 표현 - 네 건축가 집단에 대한 사례 연구를 중심으로 -",
+      "url": "https://koreascience.kr/article/JAKO202620139740358.page?lang=ko"
+     },
+     {
+      "authors": "이연경, 이희열",
+      "title": "전후 복구기 시멘트 공장의 건설과 산업촌의 공간 형성 - 구(舊) 쌍용양회 문경공장과 주변 배후지를 중심으로 -",
+      "url": "https://koreascience.kr/article/JAKO202620139739925.page?lang=ko"
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "건축역사연구",
+    "issue": "35권 4호 (2026.8)",
+    "pub": "2026-08-31",
+    "items": [
+     {
+      "authors": "이건일, 성종상, 백진",
+      "title": "최초의 환경 전람회 - 스포캔 EXPO '74 한국관의 의의와 한계에 관한 연구",
+      "url": "https://koreascience.kr/article/JAKO202625050530862.page?lang=ko"
+     },
+     {
+      "authors": "김재웅",
+      "title": "1960년대 천주교 광주대교구 성당 건축에 관한 연구",
+      "url": "https://koreascience.kr/article/JAKO202625054130699.page?lang=ko"
+     },
+     {
+      "authors": "임한솔",
+      "title": "조선후기 육조거리 중앙관아 현판의 유형과 특성",
+      "url": "https://koreascience.kr/article/JAKO202625050530930.page?lang=ko"
+     }
+    ]
+   },
+   {
+    "cat": "other",
     "journal": "IJBTC",
     "issue": "36(1) (2026)",
     "pub": "",
@@ -2084,6 +2181,31 @@
    {
     "journal": "한국고대사탐구",
     "issue": "2026.08 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "건축역사연구",
+    "issue": "35권 1호 (2026.2)",
+    "status": "확인"
+   },
+   {
+    "journal": "건축역사연구",
+    "issue": "35권 2호 (2026.4)",
+    "status": "확인"
+   },
+   {
+    "journal": "건축역사연구",
+    "issue": "35권 3호 (2026.6)",
+    "status": "확인"
+   },
+   {
+    "journal": "건축역사연구",
+    "issue": "35권 4호 (2026.8)",
+    "status": "확인"
+   },
+   {
+    "journal": "신라사학보",
+    "issue": "2026.04 발간호",
     "status": "목차 미확인"
    }
   ]

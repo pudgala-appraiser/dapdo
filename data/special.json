@@ -209,7 +209,9 @@
    "journal": "건축역사연구",
    "pub": "2026-02-28",
    "mode": "filter",
-   "status": "todo"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "35권 1호 (2026.2)"
   },
   {
    "id": "t17",
@@ -217,7 +219,9 @@
    "journal": "건축역사연구",
    "pub": "2026-04-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "35권 2호 (2026.4)"
   },
   {
    "id": "t18",
@@ -225,7 +229,9 @@
    "journal": "건축역사연구",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "35권 3호 (2026.6)"
   },
   {
    "id": "t19",
@@ -233,7 +239,9 @@
    "journal": "건축역사연구",
    "pub": "2026-08-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "35권 4호 (2026.8)"
   },
   {
    "id": "t20",
@@ -241,7 +249,8 @@
    "journal": "신라사학보",
    "pub": "2026-04-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-12"
   },
   {
    "id": "t21",
