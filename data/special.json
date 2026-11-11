@@ -115,7 +115,9 @@
    "journal": "불교문화재연구",
    "pub": "2026-05-31",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-12",
+   "issue": "8호 (2026.5)"
   },
   {
    "id": "t59",
@@ -123,7 +125,8 @@
    "journal": "한국중세고고학",
    "pub": "2026-06-25",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-12"
   },
   {
    "id": "t60",
@@ -178,7 +181,9 @@
    "journal": "동원학술논문집",
    "pub": "2026-07-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "27집 (2026.7)"
   },
   {
    "id": "t14",
@@ -186,7 +191,8 @@
    "journal": "한국고대사탐구",
    "pub": "2026-04-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-12"
   },
   {
    "id": "t15",
@@ -194,7 +200,8 @@
    "journal": "한국고대사탐구",
    "pub": "2026-08-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-12"
   },
   {
    "id": "t16",

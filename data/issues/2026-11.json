@@ -1566,6 +1566,46 @@
    },
    {
     "cat": "other",
+    "journal": "동원학술논문집",
+    "issue": "27집 (2026.7)",
+    "pub": "2026-07-31",
+    "items": [
+     {
+      "authors": "이양수, 오광섭, 홍종하, 신동훈",
+      "title": "三韓時代 不平等의 經濟的 基盤-大動物의 家畜化",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0602010700.do?schM=view&catCustomType=periodical&catId=132&arcId=23809",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "장용준, 김종우",
+      "title": "天馬塚出土 彩畵板의 顔料와 製作工程",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0602010700.do?schM=view&catCustomType=periodical&catId=132&arcId=23809",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "김윤이",
+      "title": "法華經으로 이룬 佛殿 國立中央博物館 소장 金銅佛龕(덕수2115)에 대한 考察",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0602010700.do?schM=view&catCustomType=periodical&catId=132&arcId=23809",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "허형욱",
+      "title": "國立中央博物館 所藏 佛敎彫刻 關聯 琉璃乾板의 分類 方案과 資料的 價値",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0602010700.do?schM=view&catCustomType=periodical&catId=132&arcId=23809",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
     "journal": "IJBTC",
     "issue": "36(1) (2026)",
     "pub": "",
@@ -1997,6 +2037,16 @@
     "status": "목차 미확인"
    },
    {
+    "journal": "불교문화재연구",
+    "issue": "8호 (2026.5)",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "한국중세고고학",
+    "issue": "2026.06 발간호",
+    "status": "목차 미확인"
+   },
+   {
     "journal": "한국민화",
     "issue": "24호 (2026.6)",
     "status": "확인"
@@ -2020,6 +2070,21 @@
     "journal": "박물관과 연구",
     "issue": "5집 (2026.6)",
     "status": "확인"
+   },
+   {
+    "journal": "동원학술논문집",
+    "issue": "27집 (2026.7)",
+    "status": "확인"
+   },
+   {
+    "journal": "한국고대사탐구",
+    "issue": "2026.04 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "한국고대사탐구",
+    "issue": "2026.08 발간호",
+    "status": "목차 미확인"
    }
   ]
  },
