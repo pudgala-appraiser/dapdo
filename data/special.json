@@ -13,8 +13,7 @@
    "journal": "미술사학연구",
    "pub": "2026-03-31",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t02",
@@ -22,8 +21,7 @@
    "journal": "미술사학연구",
    "pub": "2026-06-30",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t03",
@@ -31,8 +29,7 @@
    "journal": "미술사연구",
    "pub": "2026-06-15",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t04",
@@ -40,8 +37,7 @@
    "journal": "미술사학",
    "pub": "2026-02-28",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t05",
@@ -49,8 +45,7 @@
    "journal": "미술사학",
    "pub": "2026-08-31",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t06",
@@ -58,8 +53,7 @@
    "journal": "미술사와 시각문화",
    "pub": "2026-05-31",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t07",
@@ -67,8 +61,7 @@
    "journal": "미술사논단",
    "pub": "2026-06-30",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t08",
@@ -76,8 +69,7 @@
    "journal": "미술사학보",
    "pub": "2026-06-30",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t09",
@@ -85,8 +77,7 @@
    "journal": "문화사학",
    "pub": "2026-06-26",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t10",
@@ -104,8 +95,7 @@
    "journal": "한국근현대미술사학",
    "pub": "2026-07-31",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t56",
@@ -113,9 +103,7 @@
    "journal": "불교문화재연구",
    "pub": "2026-05-31",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11",
-   "issue": "8호 (2026.5)"
+   "status": "todo"
   },
   {
    "id": "t59",
@@ -123,8 +111,7 @@
    "journal": "한국중세고고학",
    "pub": "2026-06-25",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t60",
@@ -179,8 +166,7 @@
    "journal": "동원학술논문집",
    "pub": "2026-07-31",
    "mode": "filter",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t14",
@@ -188,8 +174,7 @@
    "journal": "한국고대사탐구",
    "pub": "2026-04-30",
    "mode": "filter",
-   "status": "notfound",
-   "checked": "2026-11-11"
+   "status": "todo"
   },
   {
    "id": "t15",

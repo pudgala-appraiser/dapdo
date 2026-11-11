@@ -15,7 +15,9 @@
     "09-30",
     "12-31"
    ],
-   "mode": "all"
+   "mode": "all",
+   "note": "ISSN 1225-2565. KCI(kci.go.kr)·JAMS·doi.org는 자동 도구를 막아 두어 열리지 않는다. 호의 논문 목록은 Crossref(목차 틀, 날짜는 YYYY-MM-DD)에서 받는다. volume이 호수다(329호 = 2026-03-31, 330호 = 2026-06-30). Crossref에는 영문 제목과 로마자 저자명만 있으니 한국어 원제와 한글 저자명은 검색으로 찾는다. 두세 쪽짜리 글은 서평·전시평이라 싣지 않는다. 링크는 https://doi.org/<DOI>. 2026년 329·330호 목록은 data/crossref/1225-2565-2026.json 에 받아 두었다",
+   "toc": "https://api.crossref.org/journals/1225-2565/works?filter=from-pub-date:{시작일},until-pub-date:{끝일}&rows=100&select=DOI,title,author,volume,published,page,container-title"
   },
   {
    "name": "헤리티지: 역사와 과학",

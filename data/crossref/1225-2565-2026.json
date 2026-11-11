@@ -1,0 +1,161 @@
+{
+ "_설명": "미술사학연구 2026년 329·330호의 Crossref 등록 목록(2026-11-11에 https://api.crossref.org/journals/1225-2565/works 로 받음). Crossref에는 영문 제목과 로마자 저자명만 있다. 한국어 원제와 한글 저자명은 따로 확인해야 하며, 로마자 이름을 한글로 짐작해 적지 않는다. 쪽수가 두세 쪽인 글(short)은 서평·전시평으로 보이므로 싣지 않는다. 링크는 https://doi.org/<doi>. 창간호 특집 사전 조사가 끝나면 지워도 된다.",
+ "journal": "미술사학연구",
+ "issn": "1225-2565",
+ "fetched": "2026-11-11",
+ "issues": [
+  {
+   "issue": "329호 (2026.3)",
+   "published": "2026-03-31",
+   "items": [
+    {
+     "doi": "10.31065/kjah.329.202603.001",
+     "title_en": "The Formation of An Kyŏn's Style and Attributed Works: Connoisseurship, Collecting, and Circulation in an East Asian Context",
+     "authors_en": "Seo, Yoon-jung",
+     "pages": "5-39"
+    },
+    {
+     "doi": "10.31065/kjah.329.202603.002",
+     "title_en": "Sites Where the Gaze of Record Lingered: Visual Representations of Anyang's Historical Sites in Samsŏnggi-yuch'ŏp",
+     "authors_en": "Chŏng, Chae-ŭn",
+     "pages": "41-76"
+    },
+    {
+     "doi": "10.31065/kjah.329.202603.003",
+     "title_en": "From a Regional Painter to a Royal Portraitist: The Formation of Ch'ae Yong-sin's Early Style and the 1900 Royal Portrait Commission",
+     "authors_en": "Min, Gilhong",
+     "pages": "77-104"
+    },
+    {
+     "doi": "10.31065/kjah.329.202603.004",
+     "title_en": "The Formation of the \"Painted Buddha\": Reverse Side and Enshrinement Practices in Koryŏ Buddhist Paintings",
+     "authors_en": "Lee, Seunghye",
+     "pages": "105-137"
+    },
+    {
+     "doi": "10.31065/kjah.329.202603.005",
+     "title_en": "Interpreting the Illustration of Maitreya's Descent by I Sŏng from a Buddhist Ritual Perspective",
+     "authors_en": "Yoo, Sang-soo",
+     "pages": "139-170"
+    },
+    {
+     "doi": "10.31065/kjah.329.202603.006",
+     "title_en": "The Thirty-Seven Deity Mandala Discovered in the Maitreya's Descent Painting at Myōman-ji Temple, Japan",
+     "authors_en": "Kim, Youn-mi; Son, Hee-jin",
+     "pages": "171-205"
+    },
+    {
+     "doi": "10.31065/kjah.329.202603.007",
+     "title_en": "A Study on the Ornamental System and Ritual Context of the Buddha Triad in Taegwangjŏn Hall of Sinhŭngsa Temple, Yangsan",
+     "authors_en": "Lee, Seunghi",
+     "pages": "207-237"
+    },
+    {
+     "doi": "10.31065/kjah.329.202603.008",
+     "title_en": "Originality and Alteration: The Repair and Restoration of Sŏkkuram Grotto During the Park Chung-hee Era",
+     "authors_en": "Kang, Heejung",
+     "pages": "239-268",
+     "확인된 원제": {
+      "title": "원형과 변형: 박정희 시대 석굴암 수리공사",
+      "authors": "강희정",
+      "source": "https://scholarworks.sogang.ac.kr/item/bb13cf71-8cb1-4726-b020-8f12d6c82313"
+     }
+    },
+    {
+     "doi": "10.31065/kjah.329.202603.009",
+     "title_en": "Esoteric Buddhist Beliefs in the Tang Dynasty Viewed through Incense Implements Excavated from the Famen Temple Underground Palace",
+     "authors_en": "Choi, Gukhee",
+     "pages": "269-296"
+    }
+   ],
+   "short": [
+    {
+     "doi": "10.31065/kjah.329.202603.010",
+     "title_en": "Pyoam Kang Se-hwang: Self-Portrait of a Literati Painter with a Broken Brush",
+     "authors_en": "Lee, SungHoon",
+     "pages": "299-300"
+    },
+    {
+     "doi": "10.31065/kjah.329.202603.011",
+     "title_en": "A Great Cycle for Eternity: National Palace Museum Centenary Special Exhibition",
+     "authors_en": "Lee, Jungeun",
+     "pages": "301-303"
+    }
+   ]
+  },
+  {
+   "issue": "330호 (2026.6)",
+   "published": "2026-06-30",
+   "items": [
+    {
+     "doi": "10.31065/kjah.330.202606.001",
+     "title_en": "Regional Circulation and Maritime Trade Routes of Chinese Ceramics in Koryŏ Korea (918-1392)",
+     "authors_en": "Kim, Yun-jeong",
+     "pages": "5-41"
+    },
+    {
+     "doi": "10.31065/kjah.330.202606.002",
+     "title_en": "From the Imagery of Reclusion to the Representation of Political Authority: The Transformation of Kiyŏnghoedo (耆英會圖) from Late Koryŏ to Early Chosŏn",
+     "authors_en": "Lee, Yoojeong",
+     "pages": "43-72"
+    },
+    {
+     "doi": "10.31065/kjah.330.202606.003",
+     "title_en": "Constructing Political Authority in Court Banquet Paintings: Musin Chinch'ando (1848) in the Reign of King Hŏnjong",
+     "authors_en": "Yoo, Jaebin",
+     "pages": "73-103"
+    },
+    {
+     "doi": "10.31065/kjah.330.202606.004",
+     "title_en": "The Scholarly Basis and Artistic Characteristics of Wich'ang O Se-Ch'ang's Seal Carvings",
+     "authors_en": "Soung, In-geun",
+     "pages": "105-129"
+    },
+    {
+     "doi": "10.31065/kjah.330.202606.005",
+     "title_en": "O Se-ch'ang and the Collecting of Joseon Painting and Calligraphy in Colonial Korea: Focusing on the Collections of Pak Yŏng-ch'ŏl and Chŏn Hyŏng-p'il",
+     "authors_en": "Lee, Kyunghwa",
+     "pages": "131-165"
+    },
+    {
+     "doi": "10.31065/kjah.330.202606.006",
+     "title_en": "The Collection and Utilization of Korean Ceramics by the Yi Royal Household Museum: Focusing on the Colonial Nature of the Reproduction Ceramics Industry During the Japanese Colonial Period",
+     "authors_en": "Jeon, Nam-Eon",
+     "pages": "167-198"
+    },
+    {
+     "doi": "10.31065/kjah.330.202606.007",
+     "title_en": "The Iconographic Features and Significance of the Hand-colored Woodblock Print Tejaprabhā Buddha Subduing the Nine Luminaries and Twenty-Eight Lunar Mansions from the Yingxian Timber Pagoda, Liao Dynasty",
+     "authors_en": "SUNG, Suh-Young",
+     "pages": "199-238"
+    },
+    {
+     "doi": "10.31065/kjah.330.202606.008",
+     "title_en": "The Madonna Attributed to Tang Yin: A Cross-Cultural Interpretation of a \"Suzhou Pian\"",
+     "authors_en": "Liang, Yongfeng; Liu, Haiyan; Lee, Haengcheol",
+     "pages": "239-265"
+    }
+   ],
+   "short": [
+    {
+     "doi": "10.31065/kjah.330.202606.009",
+     "title_en": "Church Art in Korea: Focusing on Catholic Art from the 1890s to the 1960s",
+     "authors_en": "Han, Yuna",
+     "pages": "266-267"
+    },
+    {
+     "doi": "10.31065/kjah.330.202606.010",
+     "title_en": "Echoes of a Master: Chusa's Critique and the Evolution of His Disciples",
+     "authors_en": "Kim, Woollim",
+     "pages": "268-270"
+    },
+    {
+     "doi": "10.31065/kjah.330.202606.011",
+     "title_en": "Subtle Hues: Goryeo White Porcelain and Joseon Celadon",
+     "authors_en": "Seo, Yuri",
+     "pages": "271-273"
+    }
+   ]
+  }
+ ]
+}
