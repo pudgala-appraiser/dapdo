@@ -1019,6 +1019,159 @@
   "groups": [
    {
     "cat": "art",
+    "journal": "미술사학연구",
+    "issue": "329호 (2026.3)",
+    "pub": "2026-03-31",
+    "items": [
+     {
+      "authors": "Seo, Yoon-jung",
+      "title": "The Formation of An Kyŏn's Style and Attributed Works: Connoisseurship, Collecting, and Circulation in an East Asian Context",
+      "url": "https://doi.org/10.31065/kjah.329.202603.001",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "Chŏng, Chae-ŭn",
+      "title": "Sites Where the Gaze of Record Lingered: Visual Representations of Anyang's Historical Sites in Samsŏnggi-yuch'ŏp",
+      "url": "https://doi.org/10.31065/kjah.329.202603.002",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "Min, Gilhong",
+      "title": "From a Regional Painter to a Royal Portraitist: The Formation of Ch'ae Yong-sin's Early Style and the 1900 Royal Portrait Commission",
+      "url": "https://doi.org/10.31065/kjah.329.202603.003",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "Lee, Seunghye",
+      "title": "‘화불(畫佛)’의 성립: 고려 불화의 이면(裏面)과 복장(腹藏)의 안립구조",
+      "url": "https://doi.org/10.31065/kjah.329.202603.004",
+      "flags": [
+       "서지 검증 필요"
+      ]
+     },
+     {
+      "authors": "Yoo, Sang-soo",
+      "title": "Interpreting the Illustration of Maitreya's Descent by I Sŏng from a Buddhist Ritual Perspective",
+      "url": "https://doi.org/10.31065/kjah.329.202603.005",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "Kim, Youn-mi; Son, Hee-jin",
+      "title": "The Thirty-Seven Deity Mandala Discovered in the Maitreya's Descent Painting at Myōman-ji Temple, Japan",
+      "url": "https://doi.org/10.31065/kjah.329.202603.006",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "Lee, Seunghi",
+      "title": "A Study on the Ornamental System and Ritual Context of the Buddha Triad in Taegwangjŏn Hall of Sinhŭngsa Temple, Yangsan",
+      "url": "https://doi.org/10.31065/kjah.329.202603.007",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "강희정",
+      "title": "원형과 변형: 박정희 시대 석굴암 수리공사",
+      "url": "https://doi.org/10.31065/kjah.329.202603.008",
+      "summary": "1960년대 석굴암 수리공사의 세부를 다시 살펴, 콘크리트 돔을 한 겹 더 씌우고 전실 팔부중상의 배치를 굽은 꼴에서 곧은 꼴로 바꾸며 목조 전실을 새로 세운 일이 석굴의 구조를 어떻게 바꾸었는지 짚는다. 이 변형이 '장방형 전실과 원형 주실'이라는 이해와 호국 사찰이라는 서사를 굳혔다고 본다.",
+      "flags": [
+       "초록만 확인"
+      ]
+     },
+     {
+      "authors": "Choi, Gukhee",
+      "title": "Esoteric Buddhist Beliefs in the Tang Dynasty Viewed through Incense Implements Excavated from the Famen Temple Underground Palace",
+      "url": "https://doi.org/10.31065/kjah.329.202603.009",
+      "flags": [
+       "원제 미확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "art",
+    "journal": "미술사학연구",
+    "issue": "330호 (2026.6)",
+    "pub": "2026-06-30",
+    "items": [
+     {
+      "authors": "Kim, Yun-jeong",
+      "title": "Regional Circulation and Maritime Trade Routes of Chinese Ceramics in Koryŏ Korea (918-1392)",
+      "url": "https://doi.org/10.31065/kjah.330.202606.001",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "Lee, Yoojeong",
+      "title": "From the Imagery of Reclusion to the Representation of Political Authority: The Transformation of Kiyŏnghoedo (耆英會圖) from Late Koryŏ to Early Chosŏn",
+      "url": "https://doi.org/10.31065/kjah.330.202606.002",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "Yoo, Jaebin",
+      "title": "헌종(憲宗)대 궁중연향도의 정치적 함의: 《무신진찬도(戊申進饌圖)》(1848년)를 중심으로",
+      "url": "https://doi.org/10.31065/kjah.330.202606.003",
+      "flags": [
+       "서지 검증 필요"
+      ]
+     },
+     {
+      "authors": "Soung, In-geun",
+      "title": "The Scholarly Basis and Artistic Characteristics of Wich'ang O Se-Ch'ang's Seal Carvings",
+      "url": "https://doi.org/10.31065/kjah.330.202606.004",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "Lee, Kyunghwa",
+      "title": "O Se-ch'ang and the Collecting of Joseon Painting and Calligraphy in Colonial Korea: Focusing on the Collections of Pak Yŏng-ch'ŏl and Chŏn Hyŏng-p'il",
+      "url": "https://doi.org/10.31065/kjah.330.202606.005",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "Jeon, Nam-Eon",
+      "title": "The Collection and Utilization of Korean Ceramics by the Yi Royal Household Museum: Focusing on the Colonial Nature of the Reproduction Ceramics Industry During the Japanese Colonial Period",
+      "url": "https://doi.org/10.31065/kjah.330.202606.006",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "SUNG, Suh-Young",
+      "title": "The Iconographic Features and Significance of the Hand-colored Woodblock Print Tejaprabhā Buddha Subduing the Nine Luminaries and Twenty-Eight Lunar Mansions from the Yingxian Timber Pagoda, Liao Dynasty",
+      "url": "https://doi.org/10.31065/kjah.330.202606.007",
+      "flags": [
+       "원제 미확인"
+      ]
+     },
+     {
+      "authors": "Liang, Yongfeng; Liu, Haiyan; Lee, Haengcheol",
+      "title": "The Madonna Attributed to Tang Yin: A Cross-Cultural Interpretation of a \"Suzhou Pian\"",
+      "url": "https://doi.org/10.31065/kjah.330.202606.008",
+      "flags": [
+       "원제 미확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "art",
     "journal": "동양미술사학",
     "issue": "22호 (2026.3)",
     "pub": "2026-03-31",
@@ -1790,13 +1943,13 @@
   "coverage": [
    {
     "journal": "미술사학연구",
-    "issue": "2026.03 발간호",
-    "status": "목차 미확인"
+    "issue": "329호 (2026.3)",
+    "status": "확인"
    },
    {
     "journal": "미술사학연구",
-    "issue": "2026.06 발간호",
-    "status": "목차 미확인"
+    "issue": "330호 (2026.6)",
+    "status": "확인"
    },
    {
     "journal": "미술사연구",
@@ -1814,44 +1967,9 @@
     "status": "목차 미확인"
    },
    {
-    "journal": "미술사와 시각문화",
-    "issue": "2026.05 발간호",
-    "status": "목차 미확인"
-   },
-   {
-    "journal": "미술사논단",
-    "issue": "2026.06 발간호",
-    "status": "목차 미확인"
-   },
-   {
-    "journal": "미술사학보",
-    "issue": "2026.06 발간호",
-    "status": "목차 미확인"
-   },
-   {
-    "journal": "문화사학",
-    "issue": "2026.06 발간호",
-    "status": "목차 미확인"
-   },
-   {
     "journal": "동양미술사학",
     "issue": "22호 (2026.3)",
     "status": "확인"
-   },
-   {
-    "journal": "한국근현대미술사학",
-    "issue": "2026.07 발간호",
-    "status": "목차 미확인"
-   },
-   {
-    "journal": "불교문화재연구",
-    "issue": "8호 (2026.5)",
-    "status": "목차 미확인"
-   },
-   {
-    "journal": "한국중세고고학",
-    "issue": "2026.06 발간호",
-    "status": "목차 미확인"
    },
    {
     "journal": "한국민화",
@@ -1877,18 +1995,8 @@
     "journal": "박물관과 연구",
     "issue": "5집 (2026.6)",
     "status": "확인"
-   },
-   {
-    "journal": "동원학술논문집",
-    "issue": "2026.07 발간호",
-    "status": "목차 미확인"
-   },
-   {
-    "journal": "한국고대사탐구",
-    "issue": "2026.04 발간호",
-    "status": "목차 미확인"
    }
   ]
  },
- "updated": "2026-11-11"
+ "updated": "2026-11-12"
 }
