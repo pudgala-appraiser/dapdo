@@ -60,7 +60,8 @@
    "journal": "미술사와 시각문화",
    "pub": "2026-05-31",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-12"
   },
   {
    "id": "t07",
@@ -68,7 +69,8 @@
    "journal": "미술사논단",
    "pub": "2026-06-30",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-12"
   },
   {
    "id": "t08",
@@ -76,7 +78,8 @@
    "journal": "미술사학보",
    "pub": "2026-06-30",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-12"
   },
   {
    "id": "t09",
@@ -84,7 +87,8 @@
    "journal": "문화사학",
    "pub": "2026-06-26",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-12"
   },
   {
    "id": "t10",
@@ -102,7 +106,8 @@
    "journal": "한국근현대미술사학",
    "pub": "2026-07-31",
    "mode": "all",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-12"
   },
   {
    "id": "t56",
