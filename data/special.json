@@ -282,7 +282,9 @@
    "journal": "미학·예술학연구",
    "pub": "2026-02-28",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 KISS·KCI·JAMS에만 있고 학회 누리집(ksasa.org)은 열리지 않았다"
   },
   {
    "id": "t23",
@@ -290,7 +292,9 @@
    "journal": "미학·예술학연구",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 KISS·KCI·JAMS에만 있고 학회 누리집(ksasa.org)은 열리지 않았다"
   },
   {
    "id": "t25",
@@ -298,7 +302,9 @@
    "journal": "한국고대사연구",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KCI·JAMS에만 있다"
   },
   {
    "id": "t26",
@@ -306,7 +312,9 @@
    "journal": "한국고대사연구",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KCI·JAMS에만 있다"
   },
   {
    "id": "t27",
@@ -314,7 +322,9 @@
    "journal": "신라문화",
    "pub": "2026-02-28",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KCI에만 있다"
   },
   {
    "id": "t28",
@@ -322,7 +332,9 @@
    "journal": "신라문화",
    "pub": "2026-08-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KCI에만 있다"
   },
   {
    "id": "t29",
@@ -330,7 +342,9 @@
    "journal": "고문화",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia에만 있다"
   },
   {
    "id": "t57",
@@ -338,7 +352,9 @@
    "journal": "인문과학연구",
    "pub": "2026-02-28",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KISS·KCI에만 있고 연구소 누리집(duksunginmun.org)의 논문원문제공 쪽은 열리지 않았다"
   },
   {
    "id": "t58",
@@ -346,7 +362,9 @@
    "journal": "인문과학연구",
    "pub": "2026-08-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KISS·KCI에만 있고 연구소 누리집(duksunginmun.org)의 논문원문제공 쪽은 열리지 않았다"
   },
   {
    "id": "t63",
@@ -354,7 +372,10 @@
    "journal": "국학연구",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "none",
+   "checked": "2026-11-13",
+   "issue": "59호 (2026.3)",
+   "note": "한국국학진흥원 누리집 정기간행물 목록(파일 이름)으로 10편을 확인했다"
   },
   {
    "id": "t64",
@@ -362,7 +383,10 @@
    "journal": "국학연구",
    "pub": "2026-07-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "done",
+   "checked": "2026-11-13",
+   "issue": "60호 (2026.7)",
+   "note": "한국국학진흥원 누리집 정기간행물 목록의 파일 이름으로 12편을 확인했다. 제목은 파일 이름에서 옮긴 것이라 부제·한자 표기를 대조하지 못했다(PDF는 열리지 않음)"
   },
   {
    "id": "t30",
@@ -370,7 +394,9 @@
    "journal": "한국학",
    "pub": "2026-03-10",
    "mode": "filter",
-   "status": "todo"
+   "status": "done",
+   "checked": "2026-11-13",
+   "issue": "49권 1호 (2026.3)"
   },
   {
    "id": "t31",
@@ -378,7 +404,9 @@
    "journal": "한국학",
    "pub": "2026-06-10",
    "mode": "filter",
-   "status": "todo"
+   "status": "none",
+   "checked": "2026-11-13",
+   "issue": "49권 2호 (2026.6)"
   },
   {
    "id": "t32",
@@ -386,7 +414,9 @@
    "journal": "한국사연구",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KCI에만 있다"
   },
   {
    "id": "t33",
@@ -394,7 +424,9 @@
    "journal": "한국사연구",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KCI에만 있다"
   },
   {
    "id": "t34",
@@ -402,7 +434,9 @@
    "journal": "역사학보",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KCI·JAMS에만 있고 학회 누리집(historykor.re.kr)의 학보열람 쪽은 열리지 않았다"
   },
   {
    "id": "t35",
@@ -410,7 +444,9 @@
    "journal": "역사학보",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KCI·JAMS에만 있고 학회 누리집(historykor.re.kr)의 학보열람 쪽은 열리지 않았다"
   },
   {
    "id": "t36",
@@ -418,7 +454,9 @@
    "journal": "한국사학보",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KCI에만 있다. 학회 투고규정의 발간일은 2월 28일·5월 30일·8월 30일·11월 30일이다"
   },
   {
    "id": "t37",
@@ -426,7 +464,9 @@
    "journal": "한국사학보",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KCI에만 있다. 학회 투고규정의 발간일은 2월 28일·5월 30일·8월 30일·11월 30일이다"
   },
   {
    "id": "t38",
@@ -434,7 +474,9 @@
    "journal": "사학연구",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-13",
+   "note": "목차가 DBpia·KCI에만 있다"
   },
   {
    "id": "t39",

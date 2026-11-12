@@ -2314,6 +2314,22 @@
    },
    {
     "cat": "other",
+    "journal": "한국학",
+    "issue": "49권 1호 (2026.3)",
+    "pub": "2026-03-10",
+    "items": [
+     {
+      "authors": "조미화",
+      "title": "선제적 공간 지배와 모방된 근대성: 부산 이사청의 시가계획에 대해 지적원도를 활용하여",
+      "url": "https://accesson.kr/ksq/v.49/1/1/58724",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
     "journal": "건축역사연구",
     "issue": "35권 1호 (2026.2)",
     "pub": "2026-02-28",
@@ -2533,6 +2549,41 @@
       "url": "https://doi.org/10.65509/jshs.2026.8.67.319",
       "flags": [
        "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "국학연구",
+    "issue": "60호 (2026.7)",
+    "pub": "2026-07-31",
+    "items": [
+     {
+      "authors": "최승이",
+      "title": "고려인의 선문 인식과 희양산문",
+      "url": "https://m.koreastudy.or.kr/pub/kookhakList3.do?wph_class=2",
+      "flags": [
+       "목차만 확인",
+       "서지 검증 필요"
+      ]
+     },
+     {
+      "authors": "차문성",
+      "title": "퍼스 기호학의 관점에서 본 방촌 황희 문화유산의 전승 구조",
+      "url": "https://m.koreastudy.or.kr/pub/kookhakList3.do?wph_class=2",
+      "flags": [
+       "목차만 확인",
+       "서지 검증 필요"
+      ]
+     },
+     {
+      "authors": "구혜인",
+      "title": "조선시대 밥그릇의 유형과 사용문화",
+      "url": "https://m.koreastudy.or.kr/pub/kookhakList3.do?wph_class=2",
+      "flags": [
+       "목차만 확인",
+       "서지 검증 필요"
       ]
      }
     ]
@@ -3080,8 +3131,108 @@
     "journal": "신라사학보",
     "issue": "67호 (2026.8)",
     "status": "확인"
+   },
+   {
+    "journal": "미학·예술학연구",
+    "issue": "2026.02 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "미학·예술학연구",
+    "issue": "2026.06 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "한국고대사연구",
+    "issue": "2026.03 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "한국고대사연구",
+    "issue": "2026.06 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "신라문화",
+    "issue": "2026.02 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "신라문화",
+    "issue": "2026.08 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "고문화",
+    "issue": "2026.06 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "인문과학연구",
+    "issue": "2026.02 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "인문과학연구",
+    "issue": "2026.08 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "국학연구",
+    "issue": "59호 (2026.3)",
+    "status": "관련 논문 없음"
+   },
+   {
+    "journal": "국학연구",
+    "issue": "60호 (2026.7)",
+    "status": "확인"
+   },
+   {
+    "journal": "한국학",
+    "issue": "49권 1호 (2026.3)",
+    "status": "확인"
+   },
+   {
+    "journal": "한국학",
+    "issue": "49권 2호 (2026.6)",
+    "status": "관련 논문 없음"
+   },
+   {
+    "journal": "한국사연구",
+    "issue": "2026.03 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "한국사연구",
+    "issue": "2026.06 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "역사학보",
+    "issue": "2026.03 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "역사학보",
+    "issue": "2026.06 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "한국사학보",
+    "issue": "2026.03 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "한국사학보",
+    "issue": "2026.06 발간호",
+    "status": "목차 미확인"
+   },
+   {
+    "journal": "사학연구",
+    "issue": "2026.03 발간호",
+    "status": "목차 미확인"
    }
   ]
  },
- "updated": "2026-11-12"
+ "updated": "2026-11-13"
 }
