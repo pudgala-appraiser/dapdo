@@ -29,7 +29,8 @@
 | `assets/namsan_cover.gif`·`.png` | 첫 화면 그림(경주 남산동 서삼층석탑 동면 야차·용). 한 번 재생되는 GIF와, 움직임을 줄인 환경에서 쓰는 정지 그림 |
 | `assets/favicon-32.png`·`favicon-192.png`·`apple-touch-icon.png` | 즐겨찾기·탭 아이콘(도다이지 사천왕상의 눈, 위원 제공 그림을 눈동자 중심으로 잘라 한지색 바탕에 얹음). 첫 화면과 호 쪽의 머리에서 불러온다 |
 | `assets/home.js` | 첫 화면 그림 크기 맞춤과 '다시 그리기' |
-| `assets/mast.js` | 호 쪽 머리 그림(경주 장항리 서오층석탑 1층 탑신 북면 선화). 맨 위의 `K`·`KD`가 그리는 속도다 |
+| `assets/janghangri_north.png` | 호 쪽 머리 그림의 소묘(경주 장항리 서오층석탑 1층 탑신 북면 부조, 위원 제공). 쪽의 SVG가 이 그림을 가림판으로 써서 연필색으로 찍는다 |
+| `assets/mast.js` | 호 쪽 머리 그림의 '다시 그리기'. 그림의 움직임(바닥선, 위에서 아래로 약 3초)은 `tools/build_issue.py`의 SVG와 `dapdo.css`에 있다 |
 | `assets/pin.js` | 호 쪽에서 따라다니는 목차의 현재 위치 표시 |
 
 ## 호 자료 형식
