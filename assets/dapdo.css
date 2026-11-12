@@ -22,14 +22,12 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 footer{max-width:1280px;margin:0 auto;padding:28px 24px 48px;border-top:1px solid var(--hair);font-size:13px;color:var(--sub)}
 footer p{margin:0 0 6px}
 
-/* 호 쪽 머리 그림: 장항리 북면 부조 소묘를 위에서 아래로 그린다 */
+/* 호 쪽 머리 그림: 바닥선을 긋는다(소묘는 mast.js가 캔버스에 그린다) */
 @keyframes jhBase{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
-@keyframes jhStone{from{height:0px}to{height:560px}}
 @media (prefers-reduced-motion:no-preference){
   .mast-art.running .base{stroke-dasharray:1;animation:jhBase .4s ease-out both}
-  .mast-art.running .window{animation:jhStone 2.4s linear .48s both}
 }
-@media print{.mast-art.running .base,.mast-art.running .window{animation:none}}
+@media print{.mast-art.running .base{animation:none}}
 
 /* ── 메인 */
 .hero{position:relative;max-width:1280px;margin:0 auto;--k:1}
@@ -70,8 +68,10 @@ footer p{margin:0 0 6px}
 .topbar a{text-decoration:none}
 .topbar span{font-size:13px;color:var(--sub)}
 .mast{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:40px;padding:28px 0 8px;align-items:start}
-.mast-art{width:100%}
+.mast-art{position:relative;width:100%}
 .mast-art .jh-art{display:block;width:100%;height:auto;color:#323232}
+.mast-art .jh-still{position:absolute;left:0;top:0}
+.mast-art .jh-cv{position:absolute;left:2.841%;top:1.718%;width:94.318%;height:96.22%;transform:rotate(-1.1deg)}
 .mast-ttl{display:flex;flex-direction:column;gap:16px;padding-top:8px}
 .mast-ttl .h{display:flex;align-items:center;gap:18px}
 .mast-ttl h1{margin:0;font-family:var(--mj);font-weight:800;font-size:88px;line-height:1;letter-spacing:-.02em}
