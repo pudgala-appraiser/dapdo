@@ -33,8 +33,9 @@
    "journal": "미술사연구",
    "pub": "2026-06-15",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "50호 (2026.6)"
   },
   {
    "id": "t04",
@@ -42,8 +43,9 @@
    "journal": "미술사학",
    "pub": "2026-02-28",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "51호 (2026.2)"
   },
   {
    "id": "t05",
@@ -51,8 +53,9 @@
    "journal": "미술사학",
    "pub": "2026-08-31",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "52호 (2026.8)"
   },
   {
    "id": "t06",
@@ -60,8 +63,9 @@
    "journal": "미술사와 시각문화",
    "pub": "2026-05-31",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "37호 (2026.5)"
   },
   {
    "id": "t07",
@@ -69,8 +73,9 @@
    "journal": "미술사논단",
    "pub": "2026-06-30",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "62호 (2026.6)"
   },
   {
    "id": "t08",
@@ -78,8 +83,9 @@
    "journal": "미술사학보",
    "pub": "2026-06-30",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "66호 (2026.6)"
   },
   {
    "id": "t09",
@@ -87,8 +93,9 @@
    "journal": "문화사학",
    "pub": "2026-06-26",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "65호 (2026.6)"
   },
   {
    "id": "t10",
@@ -106,8 +113,9 @@
    "journal": "한국근현대미술사학",
    "pub": "2026-07-31",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "51호 (2026.7)"
   },
   {
    "id": "t56",
@@ -115,7 +123,7 @@
    "journal": "불교문화재연구",
    "pub": "2026-05-31",
    "mode": "all",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-12",
    "issue": "8호 (2026.5)"
   },
@@ -125,8 +133,9 @@
    "journal": "한국중세고고학",
    "pub": "2026-06-25",
    "mode": "all",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "20호 (2026.6)"
   },
   {
    "id": "t60",
@@ -191,8 +200,10 @@
    "journal": "한국고대사탐구",
    "pub": "2026-04-30",
    "mode": "filter",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "52호 (2026, KCI 등재명 『역사논총』)",
+   "note": "KCI에는 『역사논총』(서강사학연구회) 52호로 올라 있다(위원이 내려받은 목록). 한국고대사탐구의 바뀐 이름으로 보고 실었으며 위원 확인이 필요하다"
   },
   {
    "id": "t15",
@@ -200,8 +211,10 @@
    "journal": "한국고대사탐구",
    "pub": "2026-08-31",
    "mode": "filter",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "53호 (2026, KCI 등재명 『역사논총』)",
+   "note": "KCI에는 『역사논총』(서강사학연구회) 53호로 올라 있다(위원이 내려받은 목록). 한국고대사탐구의 바뀐 이름으로 보고 실었으며 위원 확인이 필요하다"
   },
   {
    "id": "t16",
@@ -249,8 +262,9 @@
    "journal": "신라사학보",
    "pub": "2026-04-30",
    "mode": "filter",
-   "status": "notfound",
-   "checked": "2026-11-12"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "66호 (2026.4)"
   },
   {
    "id": "t21",
@@ -258,7 +272,9 @@
    "journal": "신라사학보",
    "pub": "2026-08-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "done",
+   "checked": "2026-11-12",
+   "issue": "67호 (2026.8)"
   },
   {
    "id": "t22",
