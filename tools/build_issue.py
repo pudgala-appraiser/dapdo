@@ -173,11 +173,9 @@ def main():
     w('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700;800&amp;family=Noto+Sans+KR:wght@400;700&amp;display=swap">')
     w('<link rel="stylesheet" href="../assets/dapdo.css">\n</head>\n<body class="issue">')
     w('<header class="wrap" id="top">\n<div class="topbar"><a class="cap" href="../">踏道 · BIMONTHLY REVIEW OF SCHOLARSHIP</a><span>%s · %s</span></div>' % (e(label), e(D["title"])))
-    w('<div class="mast">\n<div>\n<div class="mast-art" id="mast-art">')
-    w('<svg class="jh-art" xmlns="http://www.w3.org/2000/svg" viewBox="-20 -10 704 582" role="img" aria-label="경주 장항리 서오층석탑 1층 탑신 북면 부조를 옮긴 연필 소묘. 면석 가운데에 문고리 두 개가 있고, 문 양쪽에 금강역사가 한 구씩 서 있다.">')
-    w('<path class="base" d="M-6 559H670" fill="none" stroke="currentColor" stroke-width=".75" opacity=".63" pathLength="1"/>\n</svg>')
-    w('<canvas class="jh-cv" width="664" height="560" data-src="../assets/janghangri_north.png" aria-hidden="true"></canvas>')
-    w('<noscript><svg class="jh-art jh-still" xmlns="http://www.w3.org/2000/svg" viewBox="-20 -10 704 582" aria-hidden="true"><defs><mask id="jh-graphite" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="664" height="560" style="mask-type:luminance"><image x="0" y="0" width="664" height="560" href="../assets/janghangri_north.png"/></mask></defs><g transform="rotate(-1.1 332 280)"><rect width="664" height="560" fill="currentColor" mask="url(#jh-graphite)"/></g></svg></noscript>\n</div>')
+    w('<div class="mast">\n<div>\n<div class="mast-art" id="mast-art" role="img" aria-label="경주 장항리 서오층석탑 1층 탑신 북면 부조를 옮긴 연필 소묘. 면석 가운데에 문고리 두 개가 있고, 문 양쪽에 금강역사가 한 구씩 서 있다.">')
+    w('<canvas class="jh-cv" width="664" height="560" data-score="../assets/janghangri_north_score.png" data-still="../assets/janghangri_north.png" aria-hidden="true"></canvas>')
+    w('<noscript><svg class="jh-still" xmlns="http://www.w3.org/2000/svg" viewBox="-20 -10 704 582" aria-hidden="true"><defs><mask id="jh-graphite" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="664" height="560" style="mask-type:luminance"><image x="0" y="0" width="664" height="560" href="../assets/janghangri_north.png"/></mask></defs><g transform="rotate(-1.1 332 280)"><rect width="664" height="560" fill="currentColor" mask="url(#jh-graphite)"/></g></svg></noscript>\n</div>')
     w('<p class="figcap">경주 장항리 서오층석탑 · 1층 탑신 북면</p>\n</div>')
     w('<div class="mast-ttl">\n<div class="h"><h1>답도</h1><span class="seal">隔月刊</span></div>\n<p class="sub">불교미술·문화유산 연구 성과 격월간</p>')
     added = (" · %s 보탬" % e(D["updated"])) if D.get("updated") and D["updated"] != D["date"] else ""
@@ -262,7 +260,7 @@ def main():
     lg = ["‘%s’%s" % (f, t) for f, t in LEGEND if f in used]
     if lg: w('<p>%s입니다.</p>' % e(", ".join(lg)))
     w('<p>%s운영자: 한재원%s</p>' % (('엮은 모델: %s | ' % e(D["model"])) if D.get("model") else '', (' | %s' % e(version())) if version() else ''))
-    w('<p><a href="../">답도 첫 화면</a></p>\n</footer>\n<script src="../assets/mast.js"></script>\n<script src="../assets/pin.js"></script>\n</body>\n</html>')
+    w('<p><a href="../">답도 첫 화면</a></p>\n</footer>\n<script src="../assets/mast_score.js"></script>\n<script src="../assets/mast.js"></script>\n<script src="../assets/pin.js"></script>\n</body>\n</html>')
     os.makedirs(os.path.join(root, "issues"), exist_ok=True)
     open(os.path.join(root, "issues", iid + ".html"), "w", encoding="utf-8").write("\n".join(out) + "\n")
     if not test:
