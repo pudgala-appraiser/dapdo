@@ -282,9 +282,10 @@
    "journal": "미학·예술학연구",
    "pub": "2026-02-28",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 KISS·KCI·JAMS에만 있고 학회 누리집(ksasa.org)은 열리지 않았다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "77권 (2026.2)"
   },
   {
    "id": "t23",
@@ -292,9 +293,10 @@
    "journal": "미학·예술학연구",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 KISS·KCI·JAMS에만 있고 학회 누리집(ksasa.org)은 열리지 않았다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "78권 (2026.6)"
   },
   {
    "id": "t25",
@@ -302,9 +304,10 @@
    "journal": "한국고대사연구",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KCI·JAMS에만 있다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "121호 (2026.3)"
   },
   {
    "id": "t26",
@@ -312,9 +315,10 @@
    "journal": "한국고대사연구",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KCI·JAMS에만 있다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "122호 (2026.6)"
   },
   {
    "id": "t27",
@@ -322,9 +326,10 @@
    "journal": "신라문화",
    "pub": "2026-02-28",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KCI에만 있다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다. 발간 달은 목록에 없어 적지 않았다",
+   "issue": "68권 (2026)"
   },
   {
    "id": "t28",
@@ -334,7 +339,7 @@
    "mode": "filter",
    "status": "notfound",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KCI에만 있다"
+   "note": "KCI에 오른 2026년 호는 68권 하나뿐이다(위원이 2026-11-13에 내려받은 목록). 68권의 발간 달과, 8월 발간호가 따로 있는지는 확인하지 못했다"
   },
   {
    "id": "t29",
@@ -342,9 +347,10 @@
    "journal": "고문화",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia에만 있다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "107호 (2026)"
   },
   {
    "id": "t57",
@@ -352,9 +358,10 @@
    "journal": "인문과학연구",
    "pub": "2026-02-28",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KISS·KCI에만 있고 연구소 누리집(duksunginmun.org)의 논문원문제공 쪽은 열리지 않았다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "42호 (2026.2)"
   },
   {
    "id": "t58",
@@ -362,9 +369,10 @@
    "journal": "인문과학연구",
    "pub": "2026-08-31",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KISS·KCI에만 있고 연구소 누리집(duksunginmun.org)의 논문원문제공 쪽은 열리지 않았다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "43호 (2026.8)"
   },
   {
    "id": "t63",
@@ -414,9 +422,10 @@
    "journal": "한국사연구",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KCI에만 있다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "212호 (2026.3)"
   },
   {
    "id": "t33",
@@ -424,9 +433,10 @@
    "journal": "한국사연구",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KCI에만 있다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "213호 (2026.6)"
   },
   {
    "id": "t34",
@@ -434,9 +444,10 @@
    "journal": "역사학보",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KCI·JAMS에만 있고 학회 누리집(historykor.re.kr)의 학보열람 쪽은 열리지 않았다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "269호 (2026.3)"
   },
   {
    "id": "t35",
@@ -444,9 +455,10 @@
    "journal": "역사학보",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KCI·JAMS에만 있고 학회 누리집(historykor.re.kr)의 학보열람 쪽은 열리지 않았다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "270호 (2026.6)"
   },
   {
    "id": "t36",
@@ -454,9 +466,10 @@
    "journal": "한국사학보",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "notfound",
+   "status": "done",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KCI에만 있다. 학회 투고규정의 발간일은 2월 28일·5월 30일·8월 30일·11월 30일이다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "102호 (2026.2)"
   },
   {
    "id": "t37",
@@ -464,9 +477,21 @@
    "journal": "한국사학보",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "notfound",
+   "status": "none",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KCI에만 있다. 학회 투고규정의 발간일은 2월 28일·5월 30일·8월 30일·11월 30일이다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "103호 (2026.5)"
+  },
+  {
+   "id": "t65",
+   "kind": "toc",
+   "journal": "한국사학보",
+   "pub": "2026-08-30",
+   "mode": "filter",
+   "status": "done",
+   "checked": "2026-11-13",
+   "issue": "104호 (2026.8)",
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다"
   },
   {
    "id": "t38",
@@ -474,9 +499,10 @@
    "journal": "사학연구",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "notfound",
+   "status": "none",
    "checked": "2026-11-13",
-   "note": "목차가 DBpia·KCI에만 있다"
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다",
+   "issue": "161호 (2026)"
   },
   {
    "id": "t39",
@@ -484,7 +510,10 @@
    "journal": "사학연구",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "none",
+   "checked": "2026-11-13",
+   "issue": "162호 (2026)",
+   "note": "위원이 2026-11-13에 KCI에서 내려받아 준 목록으로 확인했다"
   },
   {
    "id": "t40",

@@ -4,7 +4,7 @@
  "label": "창간 준비호",
  "title": "2026년 11월",
  "date": "2026-11-10",
- "lead": "이달에는 『불교미술사학』 42호와 『불교학연구』 88호에서 광원 석굴, 장안성 모인니상, 신라 사방불을 다룬 논문이 나왔고, 『Religions』에는 우전식 비사문천 도상의 전파를 따라간 글이 실렸다. 『헤리티지: 역사와 과학』 59권 3호와 『건축역사연구』 35권 5호의 논문도 실었다. 『미술사학연구』 331호는 목차로 확인한 네 편을 실었다. 국내 12종과 해외 17종은 이번에 목차를 확인하지 못해 다음 호에서 다시 본다.",
+ "lead": "이달에는 『불교미술사학』 42호와 『불교학연구』 88호에서 광원 석굴, 장안성 모인니상, 신라 사방불을 다룬 논문이 나왔고, 『Religions』에는 우전식 비사문천 도상의 전파를 따라간 글이 실렸다. 『헤리티지: 역사와 과학』 59권 3호와 『건축역사연구』 35권 5호의 논문도 실었다. 『미술사학연구』 331호는 목차로 확인한 네 편을, 『사학연구』 163호·『한국고대사연구』 123호·『한국사연구』 214호는 다섯 편을 실었다. 국내 8종과 해외 17종은 이번에 목차를 확인하지 못해 다음 호에서 다시 본다.",
  "model": "Claude Fable 5.2 (claude-fable-5-2)",
  "sections": [
   {
@@ -384,6 +384,51 @@
      "title": "일본 선사시대 무덤에 보이는 ‘집골(集骨)’의 사회적 의미",
      "venue": "『한국학』 49권 3호 (2026)",
      "url": "https://www.accesson.kr/ksq/v.49/3/184/60019",
+     "flags": [
+      "목차만 확인"
+     ]
+    },
+    {
+     "authors": "최경환",
+     "title": "세조대 刊經都監의 佛書 간행과 역사적 의의",
+     "venue": "『사학연구』 163호 (2026)",
+     "url": "https://www.kci.go.kr/",
+     "flags": [
+      "목차만 확인"
+     ]
+    },
+    {
+     "authors": "박영웅",
+     "title": "조선시대 고려 왕릉 관리 제도의 실상과 변천",
+     "venue": "『사학연구』 163호 (2026)",
+     "url": "https://www.kci.go.kr/",
+     "flags": [
+      "목차만 확인"
+     ]
+    },
+    {
+     "authors": "박초롱",
+     "title": "웅진기 백제와 倭의 해양 교류 -무령왕릉 출토 금송을 중심으로",
+     "venue": "『한국고대사연구』 123호 (2026)",
+     "url": "https://www.kci.go.kr/",
+     "flags": [
+      "목차만 확인"
+     ]
+    },
+    {
+     "authors": "Morita Daichi",
+     "title": "교토 쇼렌인(靑蓮院)소장 관세음응험기의 성립경위 - 「삼종응험기」 성립부터 백제관련기사의 부가까지를 대상으로",
+     "venue": "『한국고대사연구』 123호 (2026)",
+     "url": "https://www.kci.go.kr/",
+     "flags": [
+      "목차만 확인"
+     ]
+    },
+    {
+     "authors": "김준식",
+     "title": "일제강점기 가야 고분 조사자료로 본 진주 옥봉 7호분의 성격과 의미-대가야와 백제계 문물의 공존과 문화 변동-",
+     "venue": "『한국사연구』 214호 (2026)",
+     "url": "https://www.kci.go.kr/",
      "flags": [
       "목차만 확인"
      ]
@@ -830,8 +875,8 @@
   },
   {
    "journal": "한국사연구",
-   "issue": "2026년 9월호",
-   "status": "목차 미확인"
+   "issue": "214호 (2026.9)",
+   "status": "확인"
   },
   {
    "journal": "건축역사연구",
@@ -845,13 +890,13 @@
   },
   {
    "journal": "역사학보",
-   "issue": "2026년 9월호",
-   "status": "목차 미확인"
+   "issue": "271호 (2026.9) — 해당 논문 없음",
+   "status": "확인"
   },
   {
    "journal": "한국고대사연구",
-   "issue": "2026년 9월호",
-   "status": "목차 미확인"
+   "issue": "123호 (2026.9)",
+   "status": "확인"
   },
   {
    "journal": "동양미술사학",
@@ -865,8 +910,8 @@
   },
   {
    "journal": "사학연구",
-   "issue": "2026년 9월호",
-   "status": "목차 미확인"
+   "issue": "163호 (2026)",
+   "status": "확인"
   },
   {
    "journal": "역사와 현실",
@@ -2330,6 +2375,38 @@
    },
    {
     "cat": "other",
+    "journal": "한국사연구",
+    "issue": "212호 (2026.3)",
+    "pub": "2026-03-31",
+    "items": [
+     {
+      "authors": "박성현",
+      "title": "신라의 왕성과 왕궁",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "한국사연구",
+    "issue": "213호 (2026.6)",
+    "pub": "2026-06-30",
+    "items": [
+     {
+      "authors": "박용진",
+      "title": "해인사 소장 고려각판 『불설보문경(佛說普門經)』의 서지적 특징과 간행의 불교사적 배경",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
     "journal": "건축역사연구",
     "issue": "35권 1호 (2026.2)",
     "pub": "2026-02-28",
@@ -2547,6 +2624,462 @@
       "authors": "조성금",
       "title": "위구르어문 『五臺山讚』과 <文殊騎獅圖>를 통한 천산 위구르 왕국의 문수신앙과 동아시아 불교문화 교류",
       "url": "https://doi.org/10.65509/jshs.2026.8.67.319",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "미학·예술학연구",
+    "issue": "77권 (2026.2)",
+    "pub": "2026-02-28",
+    "items": [
+     {
+      "authors": "유은순",
+      "title": "갈등의 공동체: 장영혜중공업과 홍진훤을 통해 본 불화 생성",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "한의정",
+      "title": "실험과 제어의 표면: 장영혜중공업과 (비)해방된 관객",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "강수미",
+      "title": "언어로 된 스크린: 장영혜중공업의 전복적 보기",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "이주희",
+      "title": "고유섭 미학의 재해석 동기 발견",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "전희진",
+      "title": "The Contemporary Manifestation of the Theory of the Same Origin of Calligraphy and Painting in Lee Ungno’s Letter Abstraction",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "안소현",
+      "title": "하랄트 제만의 강박의 미술관과 연금술적 상상력: ≪계시의 스위스≫(1991-1992)를 중심으로",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "미학·예술학연구",
+    "issue": "78권 (2026.6)",
+    "pub": "2026-06-30",
+    "items": [
+     {
+      "authors": "신승철",
+      "title": "조요한의 ‘모던 아트’와 미학적 보수주의",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "김주원",
+      "title": "조요한의 김환기론: 『한국미의 조명』 (1999)의 관점에서",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "홍지석",
+      "title": "신매체와 몸의 교섭: 근대 한국의 매체 환경과 매체 예술 담론",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "손지민",
+      "title": "Which Naturalism?: The Problem of the ‘Natural’ in Korean Art History",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "박성용",
+      "title": "일본 근대건축의 형성: 화혼양재 개념이 단게 겐조에 이르는 경로",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "역사학보",
+    "issue": "269호 (2026.3)",
+    "pub": "2026-03-31",
+    "items": [
+     {
+      "authors": "오대양",
+      "title": "청동기시대 환황해지역 해상교류의 성격과 의미 : 도작 농경과 고인돌을 중심으로",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "역사학보",
+    "issue": "270호 (2026.6)",
+    "pub": "2026-06-30",
+    "items": [
+     {
+      "authors": "서민수",
+      "title": "신라 중고기 왕경의 사찰 조영과 山林藪澤의 재편 : 불교적 성역화와 공간 질서의 형성",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "김선우",
+      "title": "서남아시아 신석기 전환에 대한 일 고찰 : 남부 레반트 지역 주거 구조 변화를 중심으로",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "한국고대사연구",
+    "issue": "121호 (2026.3)",
+    "pub": "2026-03-31",
+    "items": [
+     {
+      "authors": "고광의",
+      "title": "신라 동해안 3碑의 판독과 서체",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "한국고대사연구",
+    "issue": "122호 (2026.6)",
+    "pub": "2026-06-30",
+    "items": [
+     {
+      "authors": "김근식",
+      "title": "각저총과 무용총의 관람문화와 시각 메시지- 관람 가능성의 검토를 중심으로",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "김규운, 김건우, 김민하, 박영웅",
+      "title": "평창 대화산성의 조영과 신라의 영서지방 진출",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "한국사학보",
+    "issue": "102호 (2026.2)",
+    "pub": "2026-03-31",
+    "items": [
+     {
+      "authors": "강제훈",
+      "title": "조선초기 眞殿 儀禮의 유교화 과정과 그 의미",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "이재정",
+      "title": "갑인자의 소장 현황과 특징 고찰",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "한국사학보",
+    "issue": "104호 (2026.8)",
+    "pub": "2026-08-30",
+    "items": [
+     {
+      "authors": "정호섭",
+      "title": "아프라시압 궁전벽화의 고구려인에 대한 재론",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "조욱진",
+      "title": "고려 궁성 회경전의 외형과 조영 인식",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "신라문화",
+    "issue": "68권 (2026)",
+    "pub": "2026-02-28",
+    "items": [
+     {
+      "authors": "김훈희",
+      "title": "삼국시대 기년자료를 이용한 교차편년의 제문제 - 중국 삼국·양진·남북조시대 자료와의 비교 -",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "고상혁",
+      "title": "마립간기 신라의 거점체계 변동과 고총의 의미",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "이성훈",
+      "title": "황남대총 남분, 전쟁의 소유자 - 마립간기 신라 고분의 무기·무구 부장과 권력 표상 -",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "김현정",
+      "title": "왕릉급 적석목곽묘의 축조 공정 복원과 공정별 행위 양상 검토",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "심현철",
+      "title": "한일 비단벌레 장식유물의 현황과 과제",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "김수희",
+      "title": "경주 동궁과 월지 출토 塼의 양상과 제작기법에 대한 검토",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "이동헌",
+      "title": "경주 미탄사지 출토 통일신라토기 편년과 유적 전개 양상",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "고문화",
+    "issue": "107호 (2026)",
+    "pub": "2026-06-30",
+    "items": [
+     {
+      "authors": "임영재",
+      "title": "부여왕릉원 능묘의 체적 위계와 공간 조직",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "윤현진",
+      "title": "대학박물관 소장유물 기반 생성형 AI 창의·융합 교육 모델 개발 및 운영 사례 연구- 연세대학교 박물관 AX Muselog를 중심으로-",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "송영진, 고명진",
+      "title": "진주 지역 근대 사진그림엽서의 분석과 그 의미",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "인문과학연구",
+    "issue": "42호 (2026.2)",
+    "pub": "2026-02-28",
+    "items": [
+     {
+      "authors": "박진경, 이송란",
+      "title": "한국 실크로드 미술과 문화적 교류: 전시, 역사 그리고 전망",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "신숙",
+      "title": "正倉院 소장 공예품 연구의 국내 동향과 새로운 연구의 가능성",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "소현숙",
+      "title": "21세기 중국의 실크로드 미술사 연구와 전시 현황",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "서남영",
+      "title": "일본의 실크로드 전시를 통해 본 문화 기원의 서사敍事",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "양진",
+      "title": "박물관 ‘실크로드’ 주제 전시회의 서사성에 관한 고찰 －2017년도 전국 박물관 수상 전시 3건을 중심으로",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "이용진",
+      "title": "월남사지 삼층석탑 발견 청동병의 기형적 원류와 제작시기",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "이용윤",
+      "title": "<직지사 대웅전 삼세불회도>의 조성 주체와 수화승 世冠",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "김은경, 김시현, 조가은",
+      "title": "18-19세기 청대 광동 수출공예품의 제작 배경과 지역적 특성",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "other",
+    "journal": "인문과학연구",
+    "issue": "43호 (2026.8)",
+    "pub": "2026-08-31",
+    "items": [
+     {
+      "authors": "제지현",
+      "title": "조선 왕실 공예 연구의 성과와 방향",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "김은경",
+      "title": "조선백자 연구의 전개와 그 의의 －1960년대 이후 한국 학계의 연구 동향을 중심으로－",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "이송란",
+      "title": "아케메네스 페르시아의 페르세폴리스(Persepolis) 아파다나(Apadana)의 <사자와 황소의 투쟁>",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "신숙",
+      "title": "평탈과 나전: 중세 전환기 동아시아 칠공예의 변용과 교차",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "김윤정",
+      "title": "고려시대(918~1392) 유적 출토 중국 도자의 현황과 그 의미: 편린에서 전체상으로",
+      "url": "https://www.kci.go.kr/",
+      "flags": [
+       "목차만 확인"
+      ]
+     },
+     {
+      "authors": "이수나",
+      "title": "조선후기 공예 견양見樣의 제작원리와 대한제국기 황실 의장기물의 제작기준 －『중화전영건도감의궤』의 도설과 척량을 중심으로",
+      "url": "https://www.kci.go.kr/",
       "flags": [
        "목차만 확인"
       ]
@@ -3134,28 +3667,28 @@
    },
    {
     "journal": "미학·예술학연구",
-    "issue": "2026.02 발간호",
-    "status": "목차 미확인"
+    "issue": "77권 (2026.2)",
+    "status": "확인"
    },
    {
     "journal": "미학·예술학연구",
-    "issue": "2026.06 발간호",
-    "status": "목차 미확인"
+    "issue": "78권 (2026.6)",
+    "status": "확인"
    },
    {
     "journal": "한국고대사연구",
-    "issue": "2026.03 발간호",
-    "status": "목차 미확인"
+    "issue": "121호 (2026.3)",
+    "status": "확인"
    },
    {
     "journal": "한국고대사연구",
-    "issue": "2026.06 발간호",
-    "status": "목차 미확인"
+    "issue": "122호 (2026.6)",
+    "status": "확인"
    },
    {
     "journal": "신라문화",
-    "issue": "2026.02 발간호",
-    "status": "목차 미확인"
+    "issue": "68권 (2026)",
+    "status": "확인"
    },
    {
     "journal": "신라문화",
@@ -3164,18 +3697,18 @@
    },
    {
     "journal": "고문화",
-    "issue": "2026.06 발간호",
-    "status": "목차 미확인"
+    "issue": "107호 (2026)",
+    "status": "확인"
    },
    {
     "journal": "인문과학연구",
-    "issue": "2026.02 발간호",
-    "status": "목차 미확인"
+    "issue": "42호 (2026.2)",
+    "status": "확인"
    },
    {
     "journal": "인문과학연구",
-    "issue": "2026.08 발간호",
-    "status": "목차 미확인"
+    "issue": "43호 (2026.8)",
+    "status": "확인"
    },
    {
     "journal": "국학연구",
@@ -3199,38 +3732,48 @@
    },
    {
     "journal": "한국사연구",
-    "issue": "2026.03 발간호",
-    "status": "목차 미확인"
+    "issue": "212호 (2026.3)",
+    "status": "확인"
    },
    {
     "journal": "한국사연구",
-    "issue": "2026.06 발간호",
-    "status": "목차 미확인"
+    "issue": "213호 (2026.6)",
+    "status": "확인"
    },
    {
     "journal": "역사학보",
-    "issue": "2026.03 발간호",
-    "status": "목차 미확인"
+    "issue": "269호 (2026.3)",
+    "status": "확인"
    },
    {
     "journal": "역사학보",
-    "issue": "2026.06 발간호",
-    "status": "목차 미확인"
+    "issue": "270호 (2026.6)",
+    "status": "확인"
    },
    {
     "journal": "한국사학보",
-    "issue": "2026.03 발간호",
-    "status": "목차 미확인"
+    "issue": "102호 (2026.2)",
+    "status": "확인"
    },
    {
     "journal": "한국사학보",
-    "issue": "2026.06 발간호",
-    "status": "목차 미확인"
+    "issue": "103호 (2026.5)",
+    "status": "관련 논문 없음"
+   },
+   {
+    "journal": "한국사학보",
+    "issue": "104호 (2026.8)",
+    "status": "확인"
    },
    {
     "journal": "사학연구",
-    "issue": "2026.03 발간호",
-    "status": "목차 미확인"
+    "issue": "161호 (2026)",
+    "status": "관련 논문 없음"
+   },
+   {
+    "journal": "사학연구",
+    "issue": "162호 (2026)",
+    "status": "관련 논문 없음"
    }
   ]
  },
