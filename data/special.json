@@ -511,7 +511,9 @@
    "journal": "역사와 현실",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 DBpia·KCI·JAMS에만 있다. 학회 누리집(koreanhistory.org)에는 권호 목차가 없다"
   },
   {
    "id": "t41",
@@ -519,7 +521,9 @@
    "journal": "역사와 현실",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 DBpia·KCI·JAMS에만 있다. 학회 누리집(koreanhistory.org)에는 권호 목차가 없다"
   },
   {
    "id": "t42",
@@ -527,7 +531,9 @@
    "journal": "역사와 담론",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 DBpia·KCI에만 있다"
   },
   {
    "id": "t43",
@@ -535,7 +541,9 @@
    "journal": "역사와 담론",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 DBpia·KCI에만 있다"
   },
   {
    "id": "t44",
@@ -543,7 +551,9 @@
    "journal": "동방학지",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 DBpia·교보 스콜라·KCI에만 있다"
   },
   {
    "id": "t45",
@@ -551,7 +561,9 @@
    "journal": "동방학지",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 DBpia·교보 스콜라·KCI에만 있다"
   },
   {
    "id": "t46",
@@ -559,7 +571,9 @@
    "journal": "선사와 고대",
    "pub": "2026-04-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 KISS·DBpia·KCI에만 있다. earticle 쪽과 학회 누리집(kpahistory.co.kr)은 자동 도구를 막아 두었다"
   },
   {
    "id": "t47",
@@ -567,7 +581,9 @@
    "journal": "선사와 고대",
    "pub": "2026-08-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 KISS·DBpia·KCI에만 있다. earticle 쪽과 학회 누리집(kpahistory.co.kr)은 자동 도구를 막아 두었다"
   },
   {
    "id": "t48",
@@ -575,7 +591,9 @@
    "journal": "인문과학연구논총",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 DBpia·KCI에만 있다. earticle 쪽은 자동 도구를 막아 두었다"
   },
   {
    "id": "t49",
@@ -583,7 +601,9 @@
    "journal": "인문과학연구논총",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 DBpia·KCI에만 있다. earticle 쪽은 자동 도구를 막아 두었다"
   },
   {
    "id": "t50",
@@ -591,7 +611,9 @@
    "journal": "중국사연구",
    "pub": "2026-02-28",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 KISS·DBpia·KCI·JAMS에만 있다. earticle 쪽은 자동 도구를 막아 두었다"
   },
   {
    "id": "t51",
@@ -599,7 +621,9 @@
    "journal": "중국사연구",
    "pub": "2026-04-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 KISS·DBpia·KCI·JAMS에만 있다. earticle 쪽은 자동 도구를 막아 두었다"
   },
   {
    "id": "t52",
@@ -607,7 +631,9 @@
    "journal": "중국사연구",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 KISS·DBpia·KCI·JAMS에만 있다. earticle 쪽은 자동 도구를 막아 두었다"
   },
   {
    "id": "t53",
@@ -615,7 +641,9 @@
    "journal": "중국사연구",
    "pub": "2026-08-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 KISS·DBpia·KCI·JAMS에만 있다. earticle 쪽은 자동 도구를 막아 두었다"
   },
   {
    "id": "t54",
@@ -623,7 +651,9 @@
    "journal": "구비문학연구",
    "pub": "2026-03-31",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 교보 스콜라·KCI에만 있다. earticle 쪽은 자동 도구를 막아 두었다"
   },
   {
    "id": "t55",
@@ -631,7 +661,9 @@
    "journal": "구비문학연구",
    "pub": "2026-06-30",
    "mode": "filter",
-   "status": "todo"
+   "status": "notfound",
+   "checked": "2026-11-14",
+   "note": "목차가 교보 스콜라·KCI에만 있다. earticle 쪽은 자동 도구를 막아 두었다"
   }
  ]
 }
