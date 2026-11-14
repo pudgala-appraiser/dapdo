@@ -1,10 +1,10 @@
 {
  "id": "2026-11",
- "no": 0,
- "label": "창간 준비호",
+ "no": 1,
+ "label": "창간호",
  "title": "2026년 11월",
- "date": "2026-11-10",
- "lead": "이달에는 『불교미술사학』 42호와 『불교학연구』 88호에서 광원 석굴, 장안성 모인니상, 신라 사방불을 다룬 논문이 나왔고, 『Religions』에는 우전식 비사문천 도상의 전파를 따라간 글이 실렸다. 『헤리티지: 역사와 과학』 59권 3호와 『건축역사연구』 35권 5호의 논문도 실었다. 『미술사학연구』 331호는 목차로 확인한 네 편을, 『사학연구』 163호·『한국고대사연구』 123호·『한국사연구』 214호는 다섯 편을 실었다. 국내 8종과 해외 17종은 이번에 목차를 확인하지 못해 다음 호에서 다시 본다.",
+ "date": "2026-11-15",
+ "lead": "창간호는 11월 10일 창간 준비호에 실은 문헌을 그대로 안고 새 글을 보탰으며, 네 부문 뒤에 특집 '2026년 연간 목록'을 실었다. 9월부터 이달 사이 『불교미술사학』 42호, 『불교학연구』 88호, 『헤리티지: 역사와 과학』 59권 3호, 『건축역사연구』 35권 5호, 『미술사학연구』 331호가 나왔고, 『Religions』에서는 우전식 비사문천 도상의 전파, 서방정토 신앙의 입불 삼존 형식, 통일신라 아미타불상의 수량을 다시 따진 글을 골랐다. 『동양미술사학』 23권을 비롯한 국내 8종과 해외 학술지 일부는 목차를 확인하지 못해 다음 호에서 다시 본다.",
  "model": "Claude Fable 5.2 (claude-fable-5-2)",
  "sections": [
   {
@@ -142,6 +142,28 @@
       "초록만 확인"
      ],
      "summary": "완주 화암사가 조선 후기에 왕실 원당이 된 경위를 승려 전기 자료로 추적한다. 1830년 효명세자가 승려 용암 혜언의 불사를 계기로 화암사를 기도처로 정하고 산과 절의 이름을 새로 내렸다고 보며, 같은 해 그려진 지장보살도의 화기와 이후의 중건기·축원 기록으로 왕실과의 관계가 이어졌음을 보인다. 지장보살도에 왕실이 직접 시주했는지는 확인하지 못했다고 밝힌다."
+    },
+    {
+     "authors": "Shuangqiao Meng",
+     "title": "Three Lotuses Joining in Radiance: Origins of the Iconographic Form of the New Western Pure Land Belief",
+     "title_ko": "세 연꽃이 빛으로 이어지다: 새 서방정토 신앙 도상 형식의 기원",
+     "venue": "『Religions』 17(11), 1328 (2026)",
+     "url": "https://www.mdpi.com/2077-1444/17/11/1328",
+     "flags": [
+      "초록만 확인"
+     ],
+     "summary": "6세기 무렵 서방정토 신앙이 관상 중심에서 아미타불의 이름을 부르고 불력에 기대어 왕생하는 쪽으로 바뀐 것을 '새 서방정토 신앙'이라 부르고, 이 변화가 조상과 발원문에 어떻게 나타나는지를 따진다. '안락(Anle)'·'묘락(Miaole)' 왕생 문구가 새겨진 북위·동위·북제와 남조 양의 기년명 조상을 명문과 도상을 함께 읽어 견주고, 입불 삼존을 이 신앙의 가장 이른 도상 형식으로 본다. 직접 원형은 산동 청주 지역의 '묘락' 명문 조상에, 더 깊은 원류는 남조 양의 조상에 있다고 보며, 550년 북제의 조상 한 점을 가장 이른 예로 든다."
+    },
+    {
+     "authors": "Jinyoung Chung",
+     "title": "Reconsidering Material Culture in Unified Silla's Pure Land Buddhism",
+     "title_ko": "통일신라 정토 신앙의 물질문화 다시 보기",
+     "venue": "『Religions』 17(5), 571 (2026)",
+     "url": "https://www.mdpi.com/2077-1444/17/5/571",
+     "flags": [
+      "초록만 확인"
+     ],
+     "summary": "통일신라에서 정토 신앙이 유행했으니 아미타불상도 많이 만들어졌으리라는 통념을 다시 따진다. 수인이나 서향 배치 같은 느슨한 기준을 걷어 내면 아미타로 확정할 수 있는 현존 상은 스물두 점쯤이라고 보고, 그 까닭을 칭명 염불이 상 없이도 할 수 있는 일반 신도의 신행이었고 조상은 주로 상층 후원자의 몫이었다는 데서 찾는다. 경전과 신라 승려들이 염불을 조상 공덕에 맞먹거나 그것을 대신하는 것으로 본 점도 근거로 든다. 5월 게재분으로, 해외에 실린 한국미술 관련 글이라 이번 호에 싣는다."
     }
    ],
    "more": [
@@ -432,6 +454,24 @@
      "flags": [
       "목차만 확인"
      ]
+    },
+    {
+     "authors": "Heejeong Hwang",
+     "title": "Sensory Realization of Daoist Desire: Seowangmo and the Peaches of Immortality in Korean Court Jeongjae Heonseondo",
+     "title_ko": "도교적 욕망의 감각적 실현: 조선 궁중 정재 헌선도의 서왕모와 반도",
+     "venue": "『Religions』 17(11), 1288 (2026)",
+     "url": "https://www.mdpi.com/2077-1444/17/11/1288"
+    },
+    {
+     "authors": "谷宏耀",
+     "title": "多元交融下的护法神王——试析龙门石窟宾阳中洞过道神王图像源流",
+     "title_ko": "여러 갈래가 섞인 호법 신왕: 용문석굴 빈양중동 통로 신왕 도상의 원류 시론",
+     "venue": "수록지·권호·연도 미확인 (维普期刊 등재)",
+     "url": "http://dianda.cqvip.com/Qikan/Article/Detail?id=7200536712",
+     "flags": [
+      "목차만 확인",
+      "서지 검증 필요"
+     ]
     }
    ]
   },
@@ -457,6 +497,17 @@
       "초록만 확인"
      ],
      "summary": "e뮤지엄과 국가유산포털이 유물과 인물·사건·장소·재료 사이의 관계를 어떻게 기록하는지 50건씩 뽑아 비교한다. 소장·관리·장소 같은 행정·물리 관계는 양쪽 모두 고정 항목으로 구조화돼 있으나, 해석이 필요한 관계는 대부분 서술문에 맡겨져 있다고 보고한다. 인물·사건을 역사적 의미와 잇는 관계가 가장 덜 구조화돼 있다고 짚는다."
+    },
+    {
+     "authors": "Christina Iannelli",
+     "title": "The Politics of Return: Museums, Repatriation and Cultural Diplomacy in Italy, Albania, and Canada",
+     "title_ko": "반환의 정치: 이탈리아·알바니아·캐나다의 박물관, 환수, 문화외교",
+     "venue": "『International Journal of Cultural Property』 33, e14 (2026)",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7CDA1746A8AE0479507571340F5CE9CE",
+     "flags": [
+      "서지 검증 필요"
+     ],
+     "summary": "환수를 법적·윤리적 의무만이 아니라 정치적 실천으로 보고, 박물관이 문화외교의 행위자로 움직이는 방식을 두 사례로 견준다. 파시즘 시기 알바니아에서 반출됐다가 1982년에 돌아간 '부트린트의 여신' 두상은 국가가 주도한 외교적 반환으로, 2018년 로열 온타리오 박물관이 레이니강 선주민에게 조상 유해와 부장품을 돌려준 일은 선주민 주권과 윤리적 회복의 문제로 읽는다. 온라인 게재일은 확인하지 못했다."
     }
    ],
    "more": [
@@ -540,6 +591,31 @@
       "초록만 확인"
      ],
      "summary": "필리핀 국가문화예술위원회의 유산 등록부에 실린 정보를 바탕으로 유적 사진과 메타데이터를 묶고, 시각-언어 모델이 유적을 알아보고 관련 지식을 답하는지 재는 과제 4,046개를 만들어 모델 일곱 개를 시험했다. 생김새가 비슷한 유적을 가려야 하는 과제에서 성적이 떨어졌고, 소재지 같은 지리 지식은 글로 물을 때보다 사진에서 출발할 때 더 약했다고 보고한다."
+    },
+    {
+     "authors": "Steven J. Frank · Andrea M. Frank",
+     "title": "Computational art attribution: integrating attention-based multiple instance learning and style-augmented synthetic data",
+     "title_ko": "계산적 작가 귀속: 주의 기반 다중 인스턴스 학습과 양식 증강 합성 자료의 결합",
+     "venue": "『npj Heritage Science』 (2026, 온라인 선공개)",
+     "url": "https://www.nature.com/articles/s40494-026-02865-1",
+     "deep": {
+      "thesis": "회화의 작가 귀속을 가리는 AI는 그림을 잘게 나눈 조각마다 점수를 매겨 평균하는 방식과, 숙련된 모작 같은 학습 자료의 부족이라는 두 약점을 안고 있다. 조각 전체를 한 묶음으로 읽는 주의 기반 다중 인스턴스 학습과 양식 전이로 만든 합성 비교 자료로 이를 줄일 수 있다고 본다.",
+      "material": "렘브란트, 페르메이르, 현대 작가 Peter Robert Keil의 진작과 비교작·위작. Keil의 위작은 ARTTRD가 제공했다.",
+      "method": "그림을 300×300픽셀 조각으로 나누고 조각 전체를 하나의 묶음 임베딩으로 읽는 게이트 주의 다중 인스턴스 학습을 쓴다. 신경망 양식 전이로 대상 작가풍의 합성 비교 이미지를 만들어 비교 자료를 두 배쯤으로 늘리고, 시각 복잡도가 낮은 조각은 엔트로피 기준으로 걸러 낸다.",
+      "significance": "렘브란트 시험작 27점 가운데 25점(92.59%)을 맞혔고, 페르메이르는 작은 시험 묶음에서 모두 맞혔다. Keil에서는 합성곱 신경망과 정확도가 비슷했으나 진작과 위작의 점수가 더 뚜렷이 갈렸다.",
+      "limits": "묶음 임베딩은 판정 근거를 조각 단위로 되짚기 어렵고, 공방이나 조수가 관여한 그림은 진위 이분 판정으로 가려내기 어렵다. 시험 자료가 작아 페르메이르 모작 한 점을 학습에서 빼면 정확도가 80%대로 떨어지며, 저자들은 계산 분석이 과학 조사와 감식안을 대신하지 못한다고 적었다. 편집 전 선공개 원고여서 게재일과 권·논문 번호는 확인하지 못했다."
+     }
+    },
+    {
+     "authors": "Muhammad Hamza Zafar · Davit Gigilashvili · Jon Yngve Hardeberg",
+     "title": "TEXMET: A Deep Learning Benchmark for Archaeological Textile Reconstruction",
+     "title_ko": "TEXMET: 고고 직물 복원을 위한 딥러닝 벤치마크",
+     "venue": "arXiv:2611.04734 (2026)",
+     "url": "https://arxiv.org/abs/2611.04734",
+     "flags": [
+      "초록만 확인"
+     ],
+     "summary": "오세베르그 선박 무덤(834년)에서 나온 직물 조각 수백 점을 계산으로 이어 맞추는 일이 직물 전용 자료가 없어 막혀 있다는 데서 출발해, 메트로폴리탄 미술관 공개 소장품의 역사 직물 이미지 18,644장으로 조각 맞추기용 벤치마크 TEXMET을 만들었다. 조각 맞추기 모델 셋(JPDVT·FCViT·DiffAssemble)을 견주니 일반 이미지로 학습한 모델은 직물에 잘 듣지 않았고, 직물 자료로 미세 조정한 DiffAssemble은 훼손이 심한 오세베르그 조각 45점에서 정확도가 26.67%에서 64.44%로 올랐다."
     }
    ],
    "more": [
@@ -609,6 +685,39 @@
       "목차만 확인",
       "서지 검증 필요"
      ]
+    },
+    {
+     "authors": "",
+     "title": "Quantifying the Occult: A Comparative Study of Hindu and Buddhist Deities Using Machine Learning Methods",
+     "title_ko": "오컬트의 계량화: 기계학습으로 본 힌두교·불교 존상 비교 연구",
+     "venue": "arXiv:2609.27074 (2026)",
+     "url": "https://arxiv.org/abs/2609.27074v1",
+     "flags": [
+      "목차만 확인",
+      "서지 검증 필요"
+     ]
+    },
+    {
+     "authors": "",
+     "title": "Preserving Cultural Records: A Large-Scale Benchmark and Visual-Prior Routing Network for Ancient Book Image Restoration",
+     "title_ko": "문화 기록의 보존: 고서 이미지 복원을 위한 대규모 벤치마크와 시각 사전지식 경로 선택 신경망",
+     "venue": "arXiv:2611.13010 (2026)",
+     "url": "https://arxiv.org/abs/2611.13010",
+     "flags": [
+      "목차만 확인",
+      "서지 검증 필요"
+     ]
+    },
+    {
+     "authors": "",
+     "title": "YRC-Bench: Benchmarking Culturally Aware Machine Translation for Historical Heritage via Tri-Level Semantic Bridging",
+     "title_ko": "YRC-Bench: 세 층위 의미 연결을 통한 역사 유산의 문화 인지 기계번역 벤치마크",
+     "venue": "arXiv:2611.10555 (2026)",
+     "url": "https://arxiv.org/abs/2611.10555",
+     "flags": [
+      "목차만 확인",
+      "서지 검증 필요"
+     ]
     }
    ]
   },
@@ -671,6 +780,17 @@
       "서지 검증 필요"
      ],
      "summary": "근현대 불모 금용 일섭(1900~1975)의 생애와 작품을 여섯 권으로 정리한 자료집이다. 일섭이 손수 쓴 연보를 바탕으로 전국 사찰을 조사해 불상과 불화를 확인했으며, 연보의 탈초·번역과 생애, 화맥과 제자 계보, 불상, 불화, 초본, 단청과 문집 자료로 권을 나눴다. 출판 기념 행사를 전한 기사로 확인했다."
+    },
+    {
+     "authors": "Sang-ah Kim 엮음",
+     "title": "Korea",
+     "title_ko": "한국 (영국박물관 특별전 도록)",
+     "venue": "British Museum Press, 2026",
+     "url": "https://www.britishmuseum.org/about-us/press/press-releases/announcing-korea-exhibition",
+     "flags": [
+      "본문 미확인"
+     ],
+     "summary": "영국박물관이 2026년 10월 1일부터 2027년 1월 31일까지 여는 특별전 《Korea》에 맞춰 10월에 낸 도록이다. 박물관의 한국 소장품 담당 큐레이터가 엮었고, 양장본이며 ISBN은 9780714137032이다. 서지는 박물관 보도자료에 따랐다."
     }
    ],
    "more": [
@@ -702,6 +822,33 @@
      "url": "https://www.yes24.com/Product/Search?domain=ALL&query=%EB%AF%B8%EC%88%A0%EB%AC%B8%ED%99%94&mkEntrNo=1453",
      "flags": [
       "목차만 확인"
+     ]
+    },
+    {
+     "authors": "홍선표",
+     "title": "한국의 풍경화",
+     "venue": "한국미술연구소CAS, 2026",
+     "url": "https://www.yes24.com/product/category/more/001001007003003?ElemNo=92&ElemSeq=1",
+     "flags": [
+      "본문 미확인"
+     ]
+    },
+    {
+     "authors": "김수진",
+     "title": "수집된 한국: 외교관·선교사·컬렉터·딜러가 만든 미국 내 한국 컬렉션 100년사",
+     "venue": "책과함께, 2026",
+     "url": "https://www.yes24.com/product/category/more/001001007003003?ElemNo=92&ElemSeq=1",
+     "flags": [
+      "본문 미확인"
+     ]
+    },
+    {
+     "authors": "목수현",
+     "title": "20세기 한국 미술의 길: 정체성을 찾아서",
+     "venue": "사회평론아카데미, 2026",
+     "url": "https://www.yes24.com/product/category/more/001001007003003?ElemNo=92&ElemSeq=1",
+     "flags": [
+      "본문 미확인"
      ]
     }
    ]
@@ -885,7 +1032,7 @@
   },
   {
    "journal": "미학·예술학연구",
-   "issue": "2026년 10월호",
+   "issue": "79권 (2026.10)",
    "status": "목차 미확인"
   },
   {
@@ -900,7 +1047,7 @@
   },
   {
    "journal": "동양미술사학",
-   "issue": "제22권(2026.03)까지만 등재",
+   "issue": "제23권(2026.09) — 코리아스칼라에는 제22권(2026.03)까지만 등재",
    "status": "목차 미확인"
   },
   {
@@ -945,27 +1092,27 @@
   },
   {
    "journal": "Artibus Asiae",
-   "issue": "",
-   "status": "목차 미확인"
+   "issue": "86.1 (2026) — 해당 글 없음",
+   "status": "확인"
   },
   {
    "journal": "Archives of Asian Art",
-   "issue": "76:2 (발행월 미확인)",
+   "issue": "76:2 (2026) — 출판사 쪽에 호만 등재",
    "status": "목차 미확인"
   },
   {
    "journal": "Ars Orientalis",
-   "issue": "55 (2026)",
+   "issue": "55 (2026) — 학술지 누리집이 자동 도구를 막음",
    "status": "목차 미확인"
   },
   {
    "journal": "Arts Asiatiques",
-   "issue": "80호(2025)는 근간 표시",
-   "status": "신규 없음"
+   "issue": "80 (2025, 2026년 간행) — 해당 글 없음",
+   "status": "확인"
   },
   {
    "journal": "Journal of Korean Studies",
-   "issue": "31:2 (2026.10)",
+   "issue": "31:2 (2026.10) 특집 'Crossing Boundaries: Translation in Korean Literature and Culture' — 수록 글 제목은 미확인",
    "status": "목차 미확인"
   },
   {
@@ -985,13 +1132,13 @@
   },
   {
    "journal": "Journal of Korean Religions",
-   "issue": "17:2 (2026.10)",
+   "issue": "17:2 (2026.10) — 학회 누리집에는 17:1(2026.04)까지만 등재",
    "status": "목차 미확인"
   },
   {
    "journal": "Korean Studies",
-   "issue": "50:2 (2026)",
-   "status": "목차 미확인"
+   "issue": "2026-09-28 게재분 (특집 'Korean Poetry in the Global Age') — 해당 글 없음",
+   "status": "확인"
   },
   {
    "journal": "Journal of Korean Art and Archaeology",
@@ -1000,12 +1147,12 @@
   },
   {
    "journal": "Religions",
-   "issue": "17(9)~17(11) 일부",
+   "issue": "17(9)~17(11) 일부 — 2026-11-11 게재분까지",
    "status": "확인"
   },
   {
    "journal": "Journal of the International Association of Buddhist Studies",
-   "issue": "",
+   "issue": "학술지 누리집이 자동 도구를 막음",
    "status": "목차 미확인"
   },
   {
@@ -1015,12 +1162,12 @@
   },
   {
    "journal": "Japanese Journal of Religious Studies",
-   "issue": "52 (발행월 미확인)",
-   "status": "목차 미확인"
+   "issue": "52 (발행월 미확인) — 해당 글 없음",
+   "status": "확인"
   },
   {
    "journal": "International Journal of Cultural Property",
-   "issue": "33권 (2026) — 해당 글 없음",
+   "issue": "33권 (2026) e14까지 일부",
    "status": "확인"
   },
   {
@@ -1030,7 +1177,7 @@
   },
   {
    "journal": "npj Heritage Science",
-   "issue": "2026-10-27~11-10 게재분",
+   "issue": "2026-10-27~11-10 게재분, 온라인 선공개 1건",
    "status": "확인"
   },
   {
@@ -1045,7 +1192,7 @@
   },
   {
    "journal": "美術研究",
-   "issue": "第449号 (2026.8) — 해당 글 없음",
+   "issue": "第449号 (2026.8)이 최신 — 해당 글 없음",
    "status": "확인"
   },
   {
@@ -1085,8 +1232,8 @@
   },
   {
    "journal": "美術史研究集刊",
-   "issue": "第60期(2026.3)까지만 등재",
-   "status": "목차 미확인"
+   "issue": "第60期(2026.3)이 최신",
+   "status": "신규 없음"
   },
   {
    "journal": "故宮學術季刊",
@@ -3851,6 +3998,5 @@
     "status": "목차 미확인"
    }
   ]
- },
- "updated": "2026-11-14"
+ }
 }
